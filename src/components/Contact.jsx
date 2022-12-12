@@ -5,7 +5,7 @@ import Codepen from "../assets/codepen-logo.png";
 export default function Contact() {
   return (
     <>
-      <div className="my-5 flex items-center justify-between h-20 bg-gray-100">
+      <div id="contact" className="my-5 flex items-center justify-between h-20 bg-gray-100">
         <div className="h-full w-20 border-black border-t-2 border-b-2 border-l-2"></div>
         <div className="flex-col text-center md:flex md:flex-row md:space-x-4">
           <p>Contact me by mail :</p>
@@ -17,7 +17,7 @@ export default function Contact() {
         <div className="h-full w-20 border-black border-t-2 border-b-2 border-l-2"></div>
         <div className="flex-col my-auto md:flex md:flex-row md:space-x-4 items-center">
           <p>Find me on the web :</p>
-          <div className="flex m-1 space-x-4 md:h-12">
+          <div className="flex m-1 space-x-8 md:h-12">
             <a
               href="https://www.linkedin.com/in/clemence-pham/"
               target="_blank"
