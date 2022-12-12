@@ -1,7 +1,13 @@
+import Contact from "./components/Contact.jsx";
+import Header from "./components/Header.jsx"
+import Presentation from "./components/Presentation.jsx";
+
 function App() {
   return (
-    <div className="h-[100vh] bg-slate-900">
-      <h1 className="text-gray-200 text-center text-3xl font-bold underline">Hello world!</h1>
+    <div className="mx-5 md:mx-20"> 
+      <Header /> 
+      <Presentation />
+      <Contact />
     </div>
   );
 }
