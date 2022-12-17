@@ -4,7 +4,7 @@ import Presentation from "./components/Presentation.jsx";
 
 function App() {
   return (
-    <div className="mx-5 md:mx-20"> 
+    <div className="my-5 px-5 md:px-20 bg-gray-100"> 
       <Header /> 
       <Presentation />
       <Contact />

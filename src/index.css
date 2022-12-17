@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    @apply bg-[#F3F4F6]
+}
+
+.frame {
+  @apply border-t-2 border-l-2 border-r-[6px] border-b-[6px] border-black;
+}
+
+.reveal{
+    margin: 0 20px;
+    overflow: hidden
+}
+  
+.reveal__content{
+    animation: reveal 2s cubic-bezier(1, 0, 0.3, 0.9) forwards;
+    transform: translateY(80%)
+}
+
+.reveal:nth-child(2), .reveal__content:nth-child(2){
+    animation-delay: 0.6s 
+}
+
+.reveal:nth-child(3), .reveal__content:nth-child(3){
+    animation-delay: 1.2s 
+}
+
+
+@keyframes reveal {
+    0%{
+        transform: translateY(80%)
+    }
+    100%{
+        transform: translateY(0)
+    }
+}
+
