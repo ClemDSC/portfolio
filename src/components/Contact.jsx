@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div id="contact" className="mt-5 flex flex-col items-center gap-5">
       <div className="relative flex h-20 items-center justify-center  bg-[#C3FA4F]  w-[100%]">
-        <div className="absolute h-20 bottom-1 right-1 flex flex-col md:flex-row md:gap-3 items-center justify-center  w-[100%] border-black border-2 bg-white ">
+        <div className="absolute h-20 bottom-2 right-2 flex flex-col md:flex-row md:gap-3 items-center justify-center  w-[100%] border-black border-2 bg-white ">
             <p className="bg-white text-xl">Contact me by mail :</p>
             <a
               className="bg-white font-[Play] text-xl font-semibold underline"
@@ -17,7 +17,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="relative flex h-20 items-center justify-between bg-[#C3FA4F]  w-[100%]">
-        <div className="absolute h-20 bottom-1 right-1 flex items-center justify-center w-[100%] border-black border-2 bg-white">
+        <div className="absolute h-20 bottom-2 right-2 flex items-center justify-center w-[100%] border-black border-2 bg-white">
           <div className="bg-white flex-col my-auto md:flex md:flex-row md:space-x-4 items-center">
             <p className="bg-white font-[Montserrat Alternates] text-xl tracking-wider">
               Find me on the web :
