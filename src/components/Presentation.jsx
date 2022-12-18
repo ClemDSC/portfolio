@@ -1,15 +1,7 @@
 import Portrait from "../assets/sapiens.png";
+import SkillList from "./SkillList"
 
 export default function Presentation() {
-  // const skills = [
-  //   "french",
-  //   "fullstack",
-  //   "frontend",
-  //   "backend",
-  //   "creative",
-  //   "reckless",
-  // ];
-
   return (
     <div className="relative bg-[#C3FA4F] h-[650px] md:h-96 mt-7">
       <div className="absolute bottom-2 right-2 flex flex-col h-[650px] md:h-96 w-[100%] bg-white mt-7 p-2 border-2 border-black md:flex-row md:justify-evenly ">
@@ -24,9 +16,15 @@ export default function Presentation() {
             </span>
             ,
           </h2>
+          <div className="flex bg-white">
           <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6">
-            a french developper.
+            a {" "}
           </h2>
+          <SkillList words={['french', 'fullstack', 'creative', 'frontend', 'reckless', 'backend']} />
+          <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6">
+          {" "} developper. 
+          </h2>
+          </div>
         </div>
 
         <img
