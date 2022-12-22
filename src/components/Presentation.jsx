@@ -1,5 +1,5 @@
 import Portrait from "../assets/sapiens.png";
-import SkillList from "./SkillList"
+import SkillList from "./SkillList";
 
 export default function Presentation() {
   return (
@@ -17,13 +17,23 @@ export default function Presentation() {
             ,
           </h2>
           <div className="flex bg-white">
-          <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6">
-            a {" "}
-          </h2>
-          <SkillList words={['french', 'fullstack', 'creative', 'frontend', 'reckless', 'backend']} />
-          <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6">
-          {" "} developper. 
-          </h2>
+            <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6">
+              a{" "}
+            </h2>
+            <SkillList
+              words={[
+                "french",
+                "fullstack",
+                "creative",
+                "frontend",
+                "reckless",
+                "backend",
+              ]}
+            />
+            <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6">
+              {" "}
+              developper.
+            </h2>
           </div>
         </div>
 
