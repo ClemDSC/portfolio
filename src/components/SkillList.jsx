@@ -14,5 +14,5 @@ export default function SkillList({ words }) {
     return () => clearInterval(interval);
   }, [words]);
 
-  return <h2 className="bg-white font-[Montserrat Alternates] text-3xl mx-2 mt-6">{currentWord}</h2>;
+  return <h2 className="pop-outin bg-white font-[Montserrat Alternates] text-3xl mx-2 mt-6">{currentWord}</h2>;
 }
