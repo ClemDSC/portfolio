@@ -30,11 +30,15 @@ export default function Presentation() {
                 "backend",
               ]}
             />
-            <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6">
+            <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl mt-6 max-[768px]:hidden">
               {" "}
               developper.
             </h2>
           </div>
+            <h2 className="bg-white font-[Montserrat Alternates] reveal__content text-3xl md:hidden">
+              {" "}
+              developper.
+            </h2>
         </div>
 
         <img

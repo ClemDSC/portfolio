@@ -14,13 +14,13 @@ function App() {
       <Header />
       <Presentation />
       <ScrollDown />
-      <AnimationOnScroll animateIn="animate__slideInUp">
+      <AnimationOnScroll animateIn="animate__slideInUp" animateOut="animate__slideOutDown">
         <Skills />
       </AnimationOnScroll>
-      <AnimationOnScroll animateIn="animate__slideInUp">
+      <AnimationOnScroll animateIn="animate__slideInUp" animateOut="animate__slideOutDown">
         <Projects />
       </AnimationOnScroll>
-      <AnimationOnScroll animateIn="animate__slideInUp">
+      <AnimationOnScroll animateIn="animate__slideInUp" animateOut="animate__slideOutDown">
         <Contact />
       </AnimationOnScroll>
       <ScrollToTop />
