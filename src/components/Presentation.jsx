@@ -1,6 +1,6 @@
 import Portrait from "../assets/sapiens.png";
-import SkillList
- from "./presentation/SkillList";
+import SkillList from "./presentation/SkillList";
+
 export default function Presentation() {
   return (
     <div className="shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white border-black border-2 flex flex-col  md:flex-row my-4 md:mt-6 md:justify-evenly">
