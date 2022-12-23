@@ -1,15 +1,13 @@
-export default function Mail(){
-    return (
-        <div className="relative flex h-20 items-center justify-center  bg-[#C3FA4F]  w-[100%]">
-        <div className="absolute h-20 bottom-2 right-2 flex flex-col md:flex-row md:gap-3 items-center justify-center  w-[100%] border-black border-2 bg-white ">
-            <p className="bg-white text-xl">Contact me by mail :</p>
-            <a
-              className="bg-white font-[Play] text-xl font-semibold underline"
-              href="mailto:clemence.p14@gmail.com"
-            >
-              clemence.p14@gmail.com
-            </a>
-        </div>
-      </div>
-    )
+export default function Mail() {
+  return (
+    <div className="shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white border-black border-2 w-full flex flex-col items-center md:flex-row justify-center py-3 md:py-6 md:gap-2">
+          <p className="bg-white text-xl">Contact me by mail :</p>
+          <a
+            className="bg-white font-[Play] text-xl font-semibold underline"
+            href="mailto:clemence.p14@gmail.com"
+          >
+            clemence.p14@gmail.com
+          </a>
+    </div>
+  );
 }

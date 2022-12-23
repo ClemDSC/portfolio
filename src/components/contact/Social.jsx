@@ -4,8 +4,7 @@ import Codepen from "../../assets/codepen-logo.png";
 
 export default function Social(){
     return (
-        <div className="relative flex h-20 items-center justify-between bg-[#C3FA4F]  w-[100%]">
-        <div className="absolute h-20 bottom-2 right-2 flex items-center justify-center w-[100%] border-black border-2 bg-white">
+      <div className="shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white border-black border-2 w-full flex flex-col items-center py-3">
           <div className="bg-white flex-col my-auto md:flex md:flex-row md:space-x-4 items-center">
             <p className="bg-white font-[Montserrat Alternates] text-xl tracking-wider">
               Find me on the web :
@@ -38,7 +37,6 @@ export default function Social(){
               </a>
             </div>
           </div>
-        </div>
       </div>
     )
 }
