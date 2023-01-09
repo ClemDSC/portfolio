@@ -4,35 +4,35 @@
             "id" : 1,
             "title" : "Playerbook",
             "thumbnail" : "../assets/thumbnail-playerbook.png",
-            "technos" : ["Angular", "Spring"],
+            "stacks" : ["Angular", "Spring"],
             "description" : "Super description de playerbook"
         },
         {
             "id" : 2,
             "title" : "Masterwild",
             "thumbnail" : "../assets/thumbnail-masterwild.png",
-            "technos" : ["React", "NodeJS"],
+            "stacks" : ["React", "NodeJS"],
             "description" : "Super description de masterwild"
         },
         {
             "id" : 3,
             "title" : "Apside",
             "thumbnail" : "../assets/thumbnail-Apside.png",
-            "technos" : ["React", "NodeJS"],
+            "stacks" : ["React", "NodeJS"],
             "description" : "Super description de Apside"
         },
         {
             "id" : 4,
             "title" : "On va où ?",
             "thumbnail" : "../assets/thumbnail-onvaou.png",
-            "technos" : ["React", "NodeJS"],
+            "stacks" : ["React", "NodeJS"],
             "description" : "Super description de onvaou"
         },
         {
             "id" : 5,
             "title" : "NASA x Lions",
             "thumbnail" : "../assets/thumbnail-nasaXlions.png",
-            "technos" : ["React", "NodeJS"],
+            "stacks" : ["React", "NodeJS"],
             "description" : "Super description de nasaXlions"
         }
     ]
