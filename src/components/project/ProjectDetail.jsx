@@ -1,7 +1,8 @@
-export default function ProjectDetail() {
+export default function ProjectDetail(projectList) {
+
   return (
-    <div >
-        Project detail
+    <div>
+      <p>{projectList.title}</p>
     </div>
   );
 }
