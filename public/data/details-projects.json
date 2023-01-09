@@ -1,0 +1,14 @@
+{
+    "projects" : [
+        {
+            "id" : 1,
+            "title" : "Titre 1",
+            "technos" : ["React", "Node"]
+        },
+        {
+            "id" : 2,
+            "title" : "Titre 2",
+            "technos" : ["React", "Node"]
+        }
+    ]
+}
