@@ -9,21 +9,18 @@ export default function Contact() {
     <div id="contact" className="mt-5 flex flex-col items-center gap-5">
       <AnimationOnScroll
         animateIn="animate__slideInUp"
-        animateOut="animate__slideOutDown"
         className="w-full"
       >
         <Mail />
       </AnimationOnScroll>
       <AnimationOnScroll
         animateIn="animate__slideInUp"
-        animateOut="animate__slideOutDown"
         className="w-full"
       >
         <Cv />
       </AnimationOnScroll>
       <AnimationOnScroll
         animateIn="animate__slideInUp"
-        animateOut="animate__slideOutDown"
         className="w-full"
       >
         <Social />

@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  @apply bg-[#F3F4F6];
-}
-
 /* scroll bar */
 
 /* Firefox */

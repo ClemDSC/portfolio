@@ -10,19 +10,17 @@ import ScrollToTop from "./utils/ScrollToTop.jsx";
 
 function App() {
   return (
-    <div className="relative my-5 px-5 md:px-20 bg-gray-100">
+    <div className="relative p-5 bg-[#F3F4F6] dark:bg-gray-900">
       <Header />
       <Presentation />
       <ScrollDown />
       <AnimationOnScroll
         animateIn="animate__slideInUp"
-        animateOut="animate__slideOutDown"
       >
         <Skills />
       </AnimationOnScroll>
       <AnimationOnScroll
         animateIn="animate__slideInUp"
-        animateOut="animate__slideOutDown"
       >
         <Projects />
       </AnimationOnScroll>
