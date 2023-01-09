@@ -5,35 +5,55 @@
             "title" : "Playerbook",
             "thumbnail" : "../assets/thumbnail-playerbook.png",
             "stacks" : ["Angular", "Spring"],
-            "description" : "Super description de playerbook"
+            "language" : ["Typescript", "Java", "CSS", "MySQL"],
+            "fullstack" : ["Angular", "Spring JPA", "Spring Security", "JWT"],
+            "description" : "Super description de playerbook",
+            "pictures" : ["../assets/thumbnail-playerbook.png", "../assets/playerbook/mockup-playerbook(1).png", "../assets/playerbook/mockup-playerbook(2).png", "../assets/playerbook/mockup-playerbook(3).png", "../assets/playerbook/mockup-playerbook(4).png", "../assets/playerbook/mockup-playerbook(5).png", "../assets/playerbook/mockup-playerbook(6).png", "../assets/playerbook/mockup-playerbook(7).png"],
+            "github" : "https://github.com/ClemDSC/playerbook"
         },
         {
             "id" : 2,
             "title" : "Masterwild",
             "thumbnail" : "../assets/thumbnail-masterwild.png",
-            "stacks" : ["React", "NodeJS"],
-            "description" : "Super description de masterwild"
+            "stacks" : ["React", "NodeJS", "Express"],
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express", "Prisma (ORM)", "JWT", "Multer (handling multipart/form-data)"],
+            "description" : "Super description de masterwild",
+            "pictures" : ["../assets/thumbnail-masterwild.png", "../assets/masterwild/mockup-masterwild.png", "../assets/masterwild/mockup-masterwild(1).png", "../assets/masterwild/mockup-masterwild(2).png", "../assets/masterwild/mockup-masterwild(3).png", "../assets/masterwild/mockup-masterwild(4).png", "../assets/masterwild/mockup-masterwild(5).png", "../assets/masterwild/mockup-masterwild(6).png"],
+            "github" : "https://github.com/ClemDSC/masterwild"
         },
         {
             "id" : 3,
             "title" : "Apside",
             "thumbnail" : "../assets/thumbnail-Apside.png",
             "stacks" : ["React", "NodeJS"],
-            "description" : "Super description de Apside"
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express", "Prisma (ORM)", "JWT"],
+            "description" : "Super description de Apside",
+            "pictures" : ["../assets/thumbnail-Apside.png", "../assets/aspide/mockup-Apside.png", "../assets/aspide/mockup-Apside(2).png", "../assets/aspide/mockup-Apside(3).png", "../assets/aspide/mockup-Apside(4).png", "../assets/aspide/mockup-Apside(5).png"],
+            "github" : "https://github.com/Lora048/Hackathon2-EggTeam"
         },
         {
             "id" : 4,
             "title" : "On va où ?",
             "thumbnail" : "../assets/thumbnail-onvaou.png",
             "stacks" : ["React", "NodeJS"],
-            "description" : "Super description de onvaou"
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express", "Prisma (ORM)"],
+            "description" : "Super description de onvaou",
+            "pictures" : ["../assets/thumbnail-onvaou.png", "../assets/onvaou/mockup-onvaou(1).png", "../assets/onvaou/mockup-onvaou(2).png", "../assets/onvaou/mockup-onvaou(3).png", "../assets/onvaou/mockup-onvaou(4).png"],
+            "github" : "https://github.com/ClemDSC/on_va_ou"
         },
         {
             "id" : 5,
             "title" : "NASA x Lions",
             "thumbnail" : "../assets/thumbnail-nasaXlions.png",
             "stacks" : ["React", "NodeJS"],
-            "description" : "Super description de nasaXlions"
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express"],
+            "description" : "Super description de nasaXlions",
+            "pictures" : ["../assets/thumbnail-nasaXlions.png","../assets/nasaXlions/mockup-nasaXlions(1).png", "../assets/nasaXlions/mockup-nasaXlions(2).png", "../assets/nasaXlions/mockup-nasaXlions(3).png"],
+            "github" : "https://github.com/ClemDSC/P2-TeamLions-X-NASA"
         }
     ]
 }
