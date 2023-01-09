@@ -2,7 +2,7 @@ import Arrow from "../assets/top.png";
 
 export default function ScrollToTop() {
   return (
-    <div className="flex justify-center my-4">
+    <div className="flex justify-center mt-5">
       <img
         className="w-[64px] hover:cursor-pointer"
         src={Arrow}
