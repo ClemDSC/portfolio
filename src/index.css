@@ -6,6 +6,48 @@
   @apply bg-[#F3F4F6];
 }
 
+/* scroll bar */
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FFFFFF #C3FA4F;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #C3FA4F;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #C3FA4F;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #C3FA4F;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #FFFFFF;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FFFFFF;
+}
+
+/* */
+
 .reveal {
   margin: 0 20px;
   overflow: hidden;

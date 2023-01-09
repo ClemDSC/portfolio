@@ -18,13 +18,13 @@ export default function Header() {
         </div>
       </div>
       <div className="flex justify-evenly md:mt-9">
-        <a href="#skills" rel="noopener noreferrer">
+        <a className="scroll-smooth" href="#skills" rel="noopener noreferrer">
           <img className="md:hidden" src={Square} alt="square" />
           <h3 className="green-button bg-white max-[768px]:hidden font-[Play] tracking-wider">
             skills
           </h3>
         </a>
-        <a className="scroll-smooth" href="#project" rel="noopener noreferrer">
+        <a className="scroll-smooth" href="#projects" rel="noopener noreferrer">
           <img className="md:hidden" src={Square} alt="square" />
           <h3 className="green-button bg-white max-[768px]:hidden font-[Play] tracking-wider">
             projects
