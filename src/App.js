@@ -10,7 +10,7 @@ import ScrollToTop from "./utils/ScrollToTop.jsx";
 
 function App() {
   return (
-    <div className="relative p-5 bg-[#F3F4F6] dark:bg-zinc-800 md:px-10">
+    <div className="relative p-5 bg-[#F3F4F6] dark:bg-zinc-800 md:px-10 font-[Orbitron]">
       <Header />
       <Presentation />
       <ScrollDown />

@@ -68,9 +68,9 @@ export default function ModalDetails(projectList) {
                   </span>
                 </button>
                 <div className="flex justify-center p-4">
-                  <h3 className="text-2xl text-center font-semibold">
+                  <h3 className="text-2xl text-center">
                     Project :{" "}
-                    <span className="bg-[#C3FA4F] py-1 px-3">
+                    <span className="bg-[#C3FA4F] py-1 px-3 font-semibold">
                       {projectList.title}
                     </span>
                   </h3>
@@ -87,24 +87,24 @@ export default function ModalDetails(projectList) {
                 <div className="flex flex-col items-center p-4">
                   <div className="flex flex-col items-center justify-center">
                     <div className="flex gap-2">
-                      <p className="font-semibold">languages :</p>
-                      <div className="flex gap-2">
+                      <p>languages :</p>
+                      <div className="flex gap-2 font-semibold">
                         {projectList.language.map((lang) => {
                           return <p>{lang}</p>;
                         })}
                       </div>
                     </div>
                     <div className="flex gap-2 mt-2">
-                      <p className="font-semibold">frameworks / npm :</p>
-                      <div className="flex gap-2">
+                      <p>frameworks / npm :</p>
+                      <div className="flex gap-2 font-semibold">
                         {projectList.fullstack.map((stack) => {
                           return <p>{stack}</p>;
                         })}
                       </div>
                     </div>
                   </div>
-                  <p className="text-center mt-2">
-                    <span className="font-semibold">description : </span>
+                  <p className="text-center mt-2 font-semibold">
+                    <span className="font-medium">description : </span>
                     {projectList.description}
                   </p>
                   <a
