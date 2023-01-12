@@ -15,7 +15,7 @@ export default function Skills() {
           <HardSkills />
           <SoftSkills />
         </div>
-        <p className="mt-4 md:mt-6 text-lg pb-2">
+        <p className="mt-6 md:mt-8 text-lg pb-2">
           I'm also learning <span className="font-bold">React Native</span>,{" "}
           <span className="font-bold">Swift / Xcode</span> and later <span className="font-bold">Flutter</span> because I
           like working on a mobile format.
