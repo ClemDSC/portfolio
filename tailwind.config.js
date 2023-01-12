@@ -6,6 +6,8 @@ module.exports = {
       'Montserrat-Alternates': ['Montserrat Alternates', 'sans-serif'],
       'Play': ['Play', 'sans-serif'],
       'Roboto-Mono': ['Roboto Mono', 'monospace'],
+      'Tourney': ['Tourney', 'cursive'],
+      'Orbitron': ['Orbitron', 'sans-serif'],
     },
     extend: {
       backgroundImage: {

@@ -169,27 +169,33 @@
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 46px;
 }
 .mousey {
   width: 3px;
   padding: 10px 15px;
   height: 35px;
   border: 2px solid black;
-  border-radius: 25px;
-  opacity: 0.75;
+  box-shadow: 0px 0px 5px 4px rgba(195, 250, 79, 0.9);
+  -webkit-box-shadow: 0px 0px 5px 4px rgba(195, 250, 79, 0.9);
+  -moz-box-shadow: 0px 0px 5px 4px rgba(195, 250, 79, 0.9); border-radius: 25px;
+  opacity: 0.85;
   box-sizing: content-box;
 }
+
 .scroller {
   width: 3px;
   height: 10px;
   border-radius: 25%;
   background-color: black;
-  animation-name: scroll;
+  box-shadow: 0px 0px 5px 3px rgba(195, 250, 79, 0.9);
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(195, 250, 79, 0.9);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(195, 250, 79, 0.9); animation-name: scroll;
   animation-duration: 2.2s;
   animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
   animation-iteration-count: infinite;
 }
+
 @keyframes scroll {
   0% {
     opacity: 0;

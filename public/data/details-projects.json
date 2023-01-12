@@ -2,13 +2,58 @@
     "projects" : [
         {
             "id" : 1,
-            "title" : "Titre 1",
-            "technos" : ["React", "Node"]
+            "title" : "Playerbook",
+            "thumbnail" : "../assets/thumbnail-playerbook.png",
+            "stacks" : ["Angular", "Spring"],
+            "language" : ["Typescript", "Java", "CSS", "MySQL"],
+            "fullstack" : ["Angular", "Spring JPA", "Spring Security", "JWT"],
+            "description" : "Playerbook is a social platform developed with the desire to bring together the different communities of video game players.",
+            "pictures" : ["../assets/thumbnail-playerbook.png", "../assets/playerbook/mockup-playerbook(1).png", "../assets/playerbook/mockup-playerbook(2).png", "../assets/playerbook/mockup-playerbook(3).png", "../assets/playerbook/mockup-playerbook(4).png", "../assets/playerbook/mockup-playerbook(5).png", "../assets/playerbook/mockup-playerbook(6).png", "../assets/playerbook/mockup-playerbook(7).png"],
+            "github" : "https://github.com/ClemDSC/playerbook"
         },
         {
             "id" : 2,
-            "title" : "Titre 2",
-            "technos" : ["React", "Node"]
+            "title" : "Masterwild",
+            "thumbnail" : "../assets/thumbnail-masterwild.png",
+            "stacks" : ["React", "NodeJS", "Express"],
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express", "Prisma (ORM)", "JWT", "Multer (handling multipart/form-data)"],
+            "description" : "Masterwild is the Wild Code Shcool's streaming platform, broadcasting the masterclasses presented to its students.",
+            "pictures" : ["../assets/thumbnail-masterwild.png", "../assets/masterwild/mockup-masterwild.png", "../assets/masterwild/mockup-masterwild(1).png", "../assets/masterwild/mockup-masterwild(2).png", "../assets/masterwild/mockup-masterwild(3).png", "../assets/masterwild/mockup-masterwild(4).png", "../assets/masterwild/mockup-masterwild(5).png", "../assets/masterwild/mockup-masterwild(6).png"],
+            "github" : "https://github.com/ClemDSC/masterwild"
+        },
+        {
+            "id" : 3,
+            "title" : "Apside",
+            "thumbnail" : "../assets/thumbnail-Apside.png",
+            "stacks" : ["React", "NodeJS"],
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express", "Prisma (ORM)", "JWT"],
+            "description" : "This platform was developed in 48 hours during a hackathon, with the aim of helping collaborative work between Apside agencies, particularly for projects developed during inter-contract periods.",
+            "pictures" : ["../assets/thumbnail-Apside.png", "../assets/aspide/mockup-Apside.png", "../assets/aspide/mockup-Apside(2).png", "../assets/aspide/mockup-Apside(3).png", "../assets/aspide/mockup-Apside(4).png", "../assets/aspide/mockup-Apside(5).png"],
+            "github" : "https://github.com/Lora048/Hackathon2-EggTeam"
+        },
+        {
+            "id" : 4,
+            "title" : "On va où ?",
+            "thumbnail" : "../assets/thumbnail-onvaou.png",
+            "stacks" : ["React", "NodeJS"],
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express", "Prisma (ORM)"],
+            "description" : "This application allows you to consult and post destination ideas in the form of a summary map. Each user has the option of deleting or modifying these cards if the information is incorrect or obsolete. (Developed in 48 hours during an exam)",
+            "pictures" : ["../assets/thumbnail-onvaou.png", "../assets/onvaou/mockup-onvaou(1).png", "../assets/onvaou/mockup-onvaou(2).png", "../assets/onvaou/mockup-onvaou(3).png", "../assets/onvaou/mockup-onvaou(4).png"],
+            "github" : "https://github.com/ClemDSC/on_va_ou"
+        },
+        {
+            "id" : 5,
+            "title" : "NASA x Lions",
+            "thumbnail" : "../assets/thumbnail-nasaXlions.png",
+            "stacks" : ["React", "NodeJS"],
+            "language" : ["Javacript", "CSS", "MySQL"],
+            "fullstack" : ["React", "Express"],
+            "description" : "This application presents information about artificial satellites in orbit around the earth, rovers in exploration and many other information about mars (from nasa apis)",
+            "pictures" : ["../assets/thumbnail-nasaXlions.png","../assets/nasaXlions/mockup-nasaXlions(1).png", "../assets/nasaXlions/mockup-nasaXlions(2).png", "../assets/nasaXlions/mockup-nasaXlions(3).png"],
+            "github" : "https://github.com/ClemDSC/P2-TeamLions-X-NASA"
         }
     ]
 }
