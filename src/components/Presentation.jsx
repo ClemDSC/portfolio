@@ -10,7 +10,7 @@ export default function Presentation() {
         </h2>
         <h2 className="reveal__content text-3xl">
           i'm{" "}
-          <span className="text-6xl tracking-wide ">
+          <span className="text-5xl font-semibold tracking-wide ">
             Clémence PHAM
           </span>
           ,
