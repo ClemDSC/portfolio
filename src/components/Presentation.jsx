@@ -5,18 +5,18 @@ export default function Presentation() {
   return (
     <div className="shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white dark:bg-zinc-200 border-black border-2 flex flex-col  md:flex-row my-4 md:mt-6 md:justify-evenly">
       <div className="reveal pt-6 md:pt-20 ">
-        <h2 className="font-[Montserrat Alternates] reveal__content text-3xl ">
+        <h2 className="reveal__content text-3xl ">
           Hi,
         </h2>
-        <h2 className="font-[Montserrat Alternates] reveal__content text-3xl">
+        <h2 className="reveal__content text-3xl">
           i'm{" "}
-          <span className="font-[Play] font-semibold text-6xl tracking-wide ">
+          <span className="text-5xl font-semibold tracking-wide ">
             Clémence PHAM
           </span>
           ,
         </h2>
         <div className="flex">
-          <h2 className="font-[Montserrat Alternates] reveal__content text-3xl md:mt-6">
+          <h2 className="reveal__content text-3xl md:mt-6">
             a{" "}
           </h2>
           <SkillList
@@ -29,12 +29,12 @@ export default function Presentation() {
               "backend",
             ]}
           />
-          <h2 className="font-[Montserrat Alternates] reveal__content text-3xl md:mt-6 max-[768px]:hidden">
+          <h2 className="reveal__content text-3xl md:mt-6 max-[768px]:hidden">
             {" "}
             developper.
           </h2>
         </div>
-        <h2 className="font-[Montserrat Alternates] reveal__content text-3xl md:hidden">
+        <h2 className="reveal__content text-3xl md:hidden">
           {" "}
           developper.
         </h2>

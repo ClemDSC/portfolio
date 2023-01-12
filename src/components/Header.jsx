@@ -9,10 +9,10 @@ export default function Header() {
           <img className="w-30 h-26" src={Cross} alt="cross" />
         </div>
         <div className="w-full flex-col my-auto">
-          <h1 className="text-left ml-5  md:ml-20 text-4xl font-[Play] font-semibold tracking-wider">
+          <h1 className="text-left ml-5  md:ml-20 text-4xl  font-semibold tracking-wider">
             Clémence PHAM
           </h1>
-          <h2 className="text-end mr-5 md:mr-20 font-[Play] text-2xl tracking-wider">
+          <h2 className="text-end mr-5 md:mr-20  text-2xl tracking-wider">
             portfolio
           </h2>
         </div>
@@ -20,19 +20,19 @@ export default function Header() {
       <div className="flex justify-evenly md:mt-9">
         <a className="scroll-smooth" href="#skills" rel="noopener noreferrer">
           <img className="md:hidden dark:border-2 dark:border-[#C3FA4F] dark:my-2" src={Square} alt="square" />
-          <h3 className="green-button bg-white dark:bg-zinc-200 max-[768px]:hidden font-[Play] tracking-wider">
+          <h3 className="green-button bg-white dark:bg-zinc-200 max-[768px]:hidden  hover:font-semibold tracking-wider">
             skills
           </h3>
         </a>
         <a className="scroll-smooth" href="#projects" rel="noopener noreferrer">
           <img className="md:hidden dark:border-2 dark:border-[#C3FA4F] dark:my-2" src={Square} alt="square" />
-          <h3 className="green-button bg-white dark:bg-zinc-200 max-[768px]:hidden font-[Play] tracking-wider">
+          <h3 className="green-button bg-white dark:bg-zinc-200 max-[768px]:hidden  hover:font-semibold tracking-wider">
             projects
           </h3>
         </a>
         <a className="scroll-smooth" href="#contact" rel="noopener noreferrer">
           <img className="md:hidden dark:border-2 dark:border-[#C3FA4F] dark:my-2" src={Square} alt="square" />
-          <h3 className="green-button bg-white dark:bg-zinc-200 max-[768px]:hidden font-[Play] tracking-wider">
+          <h3 className="green-button bg-white dark:bg-zinc-200 max-[768px]:hidden  hover:font-semibold tracking-wider">
             contact
           </h3>
         </a>

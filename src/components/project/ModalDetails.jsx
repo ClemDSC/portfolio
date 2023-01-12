@@ -60,23 +60,24 @@ export default function ModalDetails(projectList) {
               <div className="border-0 shadow-lg relative flex flex-col w-full bg-white dark:bg-zinc-200 outline-none focus:outline-none">
                 {/*header*/}
                 <button
-                  className=" ml-auto mt-4 mr-4 bg-transparent border-0 font-semibold outline-none focus:outline-none"
+                  className=" ml-auto md:mt-4 mr-4 bg-transparent border-0 font-semibold outline-none focus:outline-none"
                   onClick={() => setShowModal(false)}
                 >
                   <span className="bg-transparent hover:bg-[#C3FA4F] px-3 py-1 text-black text-3xl block outline-none focus:outline-none">
                     ×
                   </span>
                 </button>
-                <div className="flex justify-center p-4">
-                  <h3 className="text-2xl text-center font-semibold">
+                <div className="flex justify-center md:p-4">
+                  <h3 className="text-2xl text-center">
                     Project :{" "}
-                    <span className="bg-[#C3FA4F] py-1 px-3">
+                    <span className="bg-[#C3FA4F] py-1 px-3 font-semibold">
                       {projectList.title}
                     </span>
                   </h3>
                 </div>
                 {/*body*/}
-                <div className="relative p-4 w-[70%] h-auto mx-auto mb-2">
+                <img className="my-4 md:hidden" src={projectList.thumbnail} alt={projectList.title} />
+                <div className="max-[768px]:hidden md:relative md:p-4 md:w-[70%] md:h-auto md:mx-auto md:mb-2">
                   <Slider {...settingsCarousel}>
                     {projectList.pictures.map(pic => {
                         return <img className="mb-1" src={pic} alt={projectList.title} />
@@ -86,25 +87,25 @@ export default function ModalDetails(projectList) {
                 {/*footer*/}
                 <div className="flex flex-col items-center p-4">
                   <div className="flex flex-col items-center justify-center">
-                    <div className="flex gap-2">
-                      <p className="font-semibold">languages :</p>
-                      <div className="flex gap-2">
+                    <div className="flex gap-2 flex-col items-center md:flex-row">
+                      <p className="underline">languages :</p>
+                      <div className="flex gap-2 font-semibold">
                         {projectList.language.map((lang) => {
                           return <p>{lang}</p>;
                         })}
                       </div>
                     </div>
-                    <div className="flex gap-2 mt-2">
-                      <p className="font-semibold">frameworks / npm :</p>
-                      <div className="flex gap-2">
+                    <div className="flex gap-2 mt-2 flex-col items-center md:flex-row">
+                      <p className="underline">frameworks / npm :</p>
+                      <div className="flex flex-col md:flex-row items-center gap-2 font-semibold">
                         {projectList.fullstack.map((stack) => {
-                          return <p>{stack}</p>;
+                          return <p className="text-center">{stack}</p>;
                         })}
                       </div>
                     </div>
                   </div>
-                  <p className="text-center mt-2">
-                    <span className="font-semibold">description : </span>
+                  <p className="text-center mt-2 font-semibold">
+                    <span className="font-medium underline">description :</span>{" "}
                     {projectList.description}
                   </p>
                   <a
