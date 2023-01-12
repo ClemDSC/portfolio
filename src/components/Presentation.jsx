@@ -31,12 +31,12 @@ export default function Presentation() {
           />
           <h2 className="reveal__content text-3xl md:mt-6 max-[768px]:hidden">
             {" "}
-            developper.
+            developer.
           </h2>
         </div>
         <h2 className="reveal__content text-3xl md:hidden">
           {" "}
-          developper.
+          developer.
         </h2>
       </div>
       <img
