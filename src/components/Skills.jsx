@@ -10,7 +10,7 @@ export default function Skills() {
       <button className="cursor-default tracking-wide absolute left-20 -top-7 shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white dark:bg-zinc-100 border-black border-2 font-semibold text-2xl px-10 py-3 ">
         Skills
       </button>
-      <div className="mt-12 p-2">
+      <div className="mt-12 p-2 cursor-default">
         <div className="flex flex-col gap-4 md:flex-row">
           <HardSkills />
           <SoftSkills />

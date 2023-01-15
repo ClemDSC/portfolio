@@ -4,7 +4,7 @@ import Square from "../assets/black-square.png";
 export default function Header() {
   return (
     <div>
-      <div className="shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white dark:bg-zinc-200 border-black border-2 flex mb-5 md:mt-5">
+      <div className="cursor-default shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white dark:bg-zinc-200 border-black border-2 flex mb-5 md:mt-5">
         <div className="max-[768px]:hidden flex h-full w-30 border-black border-r-2">
           <img className="w-30 h-26" src={Cross} alt="cross" />
         </div>
@@ -17,7 +17,7 @@ export default function Header() {
           </h2>
         </div>
       </div>
-      <div className="flex justify-evenly md:mt-9">
+      <div className="cursor-default flex justify-evenly md:mt-9">
         <a className="scroll-smooth" href="#skills" rel="noopener noreferrer">
           <img className="md:hidden dark:border-2 dark:border-[#C3FA4F] dark:my-2" src={Square} alt="square" />
           <h3 className="green-button bg-white dark:bg-zinc-200 max-[768px]:hidden  hover:font-semibold tracking-wider">

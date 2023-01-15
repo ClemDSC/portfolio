@@ -18,9 +18,9 @@ export default function SoftSkills() {
   return (
     <div>
       <p className="text-2xl mb-2">SoftSkills</p>
-      <div className="flex gap-2 flex-wrap text-lg font-Tourney">
+      <div className="flex gap-2 flex-wrap text-lg font-Tourney font-bold">
         {softSkillList.map((skill) => {
-          return <p className="hover:font-bold">{skill}</p>;
+          return <p className="hover:font-medium">{skill}</p>;
         })}
       </div>
     </div>

@@ -3,7 +3,7 @@ import SkillList from "./presentation/SkillList";
 
 export default function Presentation() {
   return (
-    <div className="shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white dark:bg-zinc-200 border-black border-2 flex flex-col  md:flex-row my-4 md:mt-6 md:justify-evenly">
+    <div className="cursor-default shadow-[10px_10px_0_-2.5px_#c3fa4f] bg-white dark:bg-zinc-200 border-black border-2 flex flex-col  md:flex-row my-4 md:mt-6 md:justify-evenly">
       <div className="reveal pt-6 md:pt-20 ">
         <h2 className="reveal__content text-3xl ">
           Hi,

@@ -6,7 +6,7 @@ import Social from "./contact/Social";
 
 export default function Contact() {
   return (
-    <div id="contact" className="flex flex-col items-center gap-5">
+    <div id="contact" className="cursor-default flex flex-col items-center gap-5">
       <AnimationOnScroll
         animateIn="animate__slideInUp"
         className="w-full"
