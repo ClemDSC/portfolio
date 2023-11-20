@@ -2,12 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    colors: {
+      'feldgrau': '#3C5142',
+      'ash-grey': '#C8DCD3',
+      'coral-pink': '#DA9081',
+      'eggshell': '#EAE4CF',
+    },
     fontFamily: {
-      'Montserrat-Alternates': ['Montserrat Alternates', 'sans-serif'],
-      'Play': ['Play', 'sans-serif'],
-      'Roboto-Mono': ['Roboto Mono', 'monospace'],
-      'Tourney': ['Tourney', 'cursive'],
-      'Orbitron': ['Orbitron', 'sans-serif'],
+      sans: ["Hind Madurai"],
     },
     extend: {
       backgroundImage: {
