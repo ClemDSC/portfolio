@@ -2,13 +2,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    fontFamily: {
-      'Montserrat-Alternates': ['Montserrat Alternates', 'sans-serif'],
-      'Play': ['Play', 'sans-serif'],
-      'Roboto-Mono': ['Roboto Mono', 'monospace'],
-      'Tourney': ['Tourney', 'cursive'],
-      'Orbitron': ['Orbitron', 'sans-serif'],
-    },
     extend: {
       backgroundImage: {
         'hero': "url('https://img.freepik.com/free-vector/halftone-background-abstract-black-white-dots-shape_314614-1558.jpg?w=2000')",
