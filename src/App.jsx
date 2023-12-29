@@ -1,24 +1,18 @@
-import About from "./pages/About";
-import Header from "./pages/Header";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
 import Pro from "./pages/Pro";
-import Skills from "./pages/Skills";
-import Training from "./pages/Training";  
-import Social from "./pages/Social";  
+import Training from "./pages/Training";
 import More from "./pages/More";
-import Footer from "./pages/Footer";
 
 function App() {
   return (
-    <div className="main-container bg-feldgrau p-4">
-      <About />
-      <Header />
-      <Pro />
-      <Skills />
-      <Training />
-      <Social />
-      <More />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/pro" element={<Pro />} />
+        <Route path="/training" element={<Training />} />
+        <Route path="/more" element={<More />} />
+      </Routes>
   );
 }
 
