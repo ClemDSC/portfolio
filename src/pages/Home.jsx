@@ -24,10 +24,10 @@ function Home() {
         </Link>
       </main>
       <Skills />
-      <div className="div5 bg-eggshell">
+      <div className="div5 bg-eggshell p-4">
         <Link
           to={"/training"}
-          className="h-full flex justify-center items-center px-4 py-8"
+          className="h-full flex justify-center items-center px-4 py-4 hover:border-4 hover:border-feldgrau hover:rounded-xl"
         >
           <img
             className="max-h-16"

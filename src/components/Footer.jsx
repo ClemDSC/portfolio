@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+import FooterContent from "./FooterContent";
 
 export default function Footer() {
   const [open, setOpen] = useState(false);
@@ -8,47 +11,69 @@ export default function Footer() {
 
   return (
     <footer
-      className={`div8 hover:cursor-pointer hover:border-2 hover:border-[white] bg-eggshell flex flex-col justify-center items-center p-8 ${
+      className={`div8 hover:cursor-pointer bg-eggshell flex flex-col justify-center items-center p-4 ${
         open ? "footer-display" : ""
       }`}
-      onClick={handleOpen}
     >
-      <img
-        className="max-h-16"
-        src="../assets/logo/contact-us.png"
-        alt="Contactez-nous"
-      />
+      <motion.div
+        initial={{ opacity: 1 }}
+        animate={{ opacity: open ? 0 : 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+        className="h-full w-full flex justify-center items-center px-4 py-4 hover:border-4 hover:border-feldgrau hover:rounded-xl"
+        onClick={handleOpen}
+      >
+        <img
+          className="max-h-16"
+          src="../assets/logo/contact-us.png"
+          alt="Contactez-nous"
+        />
+      </motion.div>
 
-      {open && (
-        <div className="pt-4">
-          <div className="flex gap-2">
-            <img
-              className="h-6 w-6"
-              src="../assets/logo/pin-carte.png"
-              alt="locaton"
+      <AnimatePresence>
+        {open && (
+          <>
+            <motion.div
+              onClick={handleOpen}
+              key="overlay"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 0.5 }}
+              exit={{ opacity: 0 }}
+              style={{
+                position: "fixed",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                zIndex: 9998,
+                backgroundColor: "#3C5142",
+                filter: "grayscale(0.6)",
+              }}
             />
-            <p>Tours / Orléans / Blois ou en remote</p>
-          </div>
-          <div className="flex gap-2 my-2">
-            <img
-              className="h-6 w-6"
-              src="../assets/logo/telephone-intelligent.png"
-              alt="phone-number"
-            />
-            <p>07 82 17 06 10</p>
-          </div>
-          <div className="flex gap-2 mt-4">
-            <img
-              className="h-6 w-6"
-              src="../assets/logo/email.png"
-              alt="mail address"
-            />
-            <a href="mailto:clemence.p14@gmail.com">clemence.p14@gmail.com</a>
-          </div>
 
-          
-        </div>
-      )}
+            <motion.div
+              key="modal-content"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              style={{
+                position: "fixed",
+                top: "10%",
+                left: "10%",
+                width: "80%",
+                height: "fit-content",
+                zIndex: 9999,
+                background: "white",
+                padding: "20px",
+                borderRadius: "8px",
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+              }}
+            >
+              <FooterContent />
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
     </footer>
   );
 }
