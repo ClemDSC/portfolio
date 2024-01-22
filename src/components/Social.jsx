@@ -8,8 +8,8 @@ function Social() {
   };
 
   return (
-    <div className="div6 bg-ash-grey hover:cursor-pointer hover:border-2 hover:border-[white]" onClick={handleOpen}>
-      <div className="h-full flex flex-col justify-evenly items-center px-4 py-8">
+    <div className="div6 p-4 bg-ash-grey hover:cursor-pointer" onClick={handleOpen}>
+      <div className="h-full flex flex-col justify-evenly items-center px-4 py-4 hover:border-4 hover:border-feldgrau hover:rounded-xl">
         {open && (
           <div className="flex justify-around w-full">
             <Link
