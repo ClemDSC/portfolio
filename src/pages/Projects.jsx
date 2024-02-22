@@ -1,13 +1,12 @@
 import { useTheme } from "../context/ThemeContext";
 import { motion } from "framer-motion";
 
-import HomeHero from "../components/home/HomeHero";
-import HomeProjects from "../components/home/HomeProjects";
+import projectsData from "../data/details-projects.json";
+import HomeProjectCard from "../components/home/HomeProjectCard";
 import Footer from "../components/Footer";
 
-function Home() {
+function Projects() {
   const { theme } = useTheme();
-
   const routeVariants = {
     initial: {
       x: "100vw",
@@ -29,7 +28,7 @@ function Home() {
   };
 
   return (
-    <motion.div
+    <motion.section
       variants={routeVariants}
       initial="initial"
       animate="final"
@@ -39,26 +38,22 @@ function Home() {
           : "bg-neutral-content text-dark-text"
       }  shadow`}
     >
-       <motion.section
-      initial="hidden"
-      exit={{ opacity: 0, transition: { duration: 1 } }}
-      className="flex flex-col gap-8 md:gap-16 py-8 md:pt-[5%]"
-    >
-      <HomeHero theme={theme} />
-
-      <motion.section
+      <h2 className="text-3xl font-barlow font-bold py-8 md:pt-[5%]">Projets</h2>
+      <p className="pb-8">Chaque projet est une aventure unique, explorez-les et contactez-moi pour en savoir plus.</p>
+      <motion.div
         variants={itemVariants}
         initial="hidden"
         animate="visible"
         whileInView="visible"
-        className="flex flex-col"
+        className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 pb-8"
       >
-        <HomeProjects />
-      </motion.section>
+        {projectsData.projects.map((project) => (
+          <HomeProjectCard key={project.id} project={project} />
+        ))}
+      </motion.div>
+      <Footer />
     </motion.section>
-    <Footer />
-    </motion.div>
   );
 }
 
-export default Home;
+export default Projects;

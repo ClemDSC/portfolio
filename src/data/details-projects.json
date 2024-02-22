@@ -1,0 +1,243 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "keyurl": "tourspaddlingclub",
+      "title": "Tours Paddling Club",
+      "type": "Site vitrine",
+      "thumbnail": "https://i.ibb.co/SQSNpDc/tpc-desktop2.webp",
+      "stacks": ["React", "Firebase", "ChakraUI"],
+      "language": ["Javascript"],
+      "description": "Site vitrine de l'association sportive tourangelle Tours Paddling Club",
+      "descriptiondetail": "Ouvert au grand public, ce site offre un aperçu des activités et des événements du club. Doté d'un système de login sécurisé, il permet aux membres du club d'accéder à un espace dédié où ils peuvent contribuer au blog et partager du contenu, offrant ainsi une expérience interactive et engagée pour tous les passionnés de sports nautiques.",
+      "contrainte": [
+        "L'association souhaitait faire une refonte complète de son site, en repensant complètement son contenu.",
+        "J'ai gardé la charte graphique existante et j'ai proposé une nouvelle architecture du site, plus moderne et plus intuitive.",
+        "J'ai également mis en place un espace membre sécurisé, permettant à certains adhérents de partager du contenu et de contribuer au blog.",
+        "Pas de contrainte côté choix technologiques, j'ai opté pour une stack React/Firebase, pour sa rapidité de développement et sa facilité de maintenance.",
+        "J'ai également utilisé ChakraUI pour la partie design, pour sa facilité d'utilisation et sa personnalisation."
+      ],
+      "pictures": [
+        "https://i.ibb.co/SQSNpDc/tpc-desktop2.webp",
+        "https://i.ibb.co/BgKcTzm/tpc-desktop1.png",
+        "https://i.ibb.co/TTqYPNH/tpc-desktop5.png",
+        "https://i.ibb.co/b6Vwj3C/tpc-desktop4.png",
+        "https://i.ibb.co/PZtrr6D/tpc-desktop3.png"
+      ],
+      "picturesmobile": [
+        "https://i.ibb.co/frJy3rv/tpc-mobile1.png",
+        "https://i.ibb.co/L91K40P/tpc-mobile2.png",
+        "https://i.ibb.co/4tWPf4v/tpc-mobile4.png",
+        "https://i.ibb.co/GT50gfs/tpc-mobile3.png",
+        "",
+        "https://i.ibb.co/5sCMhNT/tpc-mobile5.png"
+      ],
+      "githubname": ["Repo du site"],
+      "github": ["https://github.com/ClemDSC/tourspaddlingclub"],
+      "link": "https://tourspaddlingclub.com/",
+      "devDate": "2023 - Aujourd'hui",
+      "role": ["Conception", "Développement", "Maintenance"],
+      "testimonial": "Clémence a su répondre à notre besoin de modernisation de notre site internet. Elle a su être à l'écoute de nos attentes et a su proposer des solutions adaptées à notre association.",
+      "testimonialAuthor": "Stéphane M.",
+      "testimonialrole": "Président de l'association"
+    },
+    {
+      "id": 2,
+      "keyurl": "aloparis",
+      "title": "A L'O",
+      "type": "Boutique en ligne / Fonctionnalités",
+      "thumbnail": "https://i.ibb.co/z4KMbpM/alo-desktop1.webp",
+      "stacks": ["Prestashop"],
+      "language": ["Php", "jQuery", "Html/Css"],
+      "description": "Boutique en ligne du concept store parisien A L'O.",
+      "descriptiondetail": "Cette boutique en ligne présente une sélection de marques de qualité, proposant des vêtements intemporels et d'aujourd'hui, à porter tous les jours et pour de nombreuses années. Toutes ces marques ont un point commun : ce sont des manufactures familiales.",
+      "contrainte": [
+        "Ce client ayant déjà plusieurs boutiques créées à partir du CMS Prestashop, ce choix technique a été imposé.",
+        "La charte graphique et les maquettes ont été conçues par Margot Bellanger, directrice artistique.",
+        "J'ai réalisé l'intégration complète du site, ainsi que celle des templates d'e-mails destinés à la communication interne et externe.",
+        "J'ai également participé au développement d'un module permettant la mise en place de précommandes, ainsi qu'à son intégration sur le site."
+      ],
+      "pictures": [
+        "https://i.ibb.co/z4KMbpM/alo-desktop1.webp",
+        "https://i.ibb.co/wYB2jVn/alo-desktop2.png",
+        "https://i.ibb.co/k6j2HP0/alo-desktop6.png",
+        "https://i.ibb.co/fQwZZWy/alo-desktop3.png",
+        "https://i.ibb.co/HNNrg1H/alo-desktop4.png",
+        "https://i.ibb.co/K2KPygh/alo-desktop5.png",
+        "https://i.ibb.co/3fR33CH/alo-desktop7.png",
+        "https://i.ibb.co/TWMYkdj/alo-desktop8.png",
+        "https://i.ibb.co/3CHvptb/alo-desktop9.png"
+      ],
+      "picturesmobile": [
+        "https://i.ibb.co/QP9H1RX/alo-mobile6.png",
+        "https://i.ibb.co/9wdPDtG/alo-mobile2.png",
+        "https://i.ibb.co/Hg9yVwL/alo-mobile4.png",
+        "https://i.ibb.co/s9tDN8X/alo-mobile5.png",
+        "https://i.ibb.co/XjQKSW6/alo-mobile9.png",
+        "https://i.ibb.co/HVytPNX/alo-mobile7.png",
+        "https://i.ibb.co/8X1SM8g/alo-mobile8.png",
+        "https://i.ibb.co/RPhnRbv/alo-mobile1.png",
+        "https://i.ibb.co/hB5bXs1/alo-mobile3.png"
+      ],
+      "githubname": ["Module du thème", "Module précommandes"],
+      "github": [
+        "https://github.com/ClemDSC/module_alo_theme",
+        "https://github.com/ClemDSC/module_alo_preco"
+      ],
+      "link": "https://www.alo.paris/fr/",
+      "devDate": "2023",
+      "role": ["Développement"],
+      "testimonial": "Nous avons travaillé avec l'agence pour la réalisation de notre nouveau site web : qualité, disponibilité et réactivité sont les mots qui nous viennent pour décrire l'agence et son équipe ! On recommande !",
+      "testimonialAuthor": "Richard B.",
+      "testimonialrole": "Directeur de A L'O"
+    },
+    {
+      "id": 3,
+      "keyurl": "cinabre",
+      "title": "Cinabre",
+      "type": "Boutique en ligne / Refonte",
+      "thumbnail": "https://i.ibb.co/YPvC5pb/cinabre-desktop1.webp",
+      "stacks": ["Prestashop"],
+      "language": ["Php", "jQuery", "Html/Css"],
+      "description": "Boutique en ligne de la maison Cinabre, spécialiste des accessoires autour du cou.",
+      "descriptiondetail": "Cinabre Paris est un spécialiste du noeud papillon et de la cravate fait main en France. La maison collabore avec des artisans du luxe français tels que des tisseurs, imprimeurs, apprêteurs et confectionneurs pour un travail de qualité. Elle propose également un service de commande sur-mesure. ",
+      "contrainte": [
+        "La boutique en ligne de Cinabre existe depuis plusieurs années et l'objectif était de procéder à une refonte partielle du site et d'ajouter la mise en place d'un système de newsletter.",
+        "Pour la page d'accueil, la contrainte a été de rendre administrable la page par les équipes de Cinabre, sans avoir besoin de passer par un développeur. J'ai donc développé un module qui leur permet d'être autonome.",
+        "Une refonte du menu, des pages 'Catégorie', des pages 'Produit' et du footer ont été faite. Le footer est lui aussi administrable par les équipes de Cinabre depuis un module personnalisé.",
+        "Un formulaire de souscription à la newsletter a été intégré au centre de la nouvelle page d'accueil, ainsi que dans le pied de page."
+      ],
+      "pictures": [
+        "https://i.ibb.co/YPvC5pb/cinabre-desktop1.webp",
+        "https://i.ibb.co/f4fr4vn/cinabre-desktop2.png",
+        "https://i.ibb.co/f1SC9M5/cinabre-desktop4.png",
+        "https://i.ibb.co/zQ5JYpt/cinabre-desktop3.png",
+        "https://i.ibb.co/6sNWTBx/cinabre-desktop5.png",
+        "https://i.ibb.co/M7JtkCz/cinabre-desktop7.png",
+        "https://i.ibb.co/dQJp9Tk/cinabre-desktop6.png",
+        "https://i.ibb.co/XWvJxZT/cinabre-desktop8.png",
+        "https://i.ibb.co/929nPv8/cinabre-desktop9.png"
+      ],
+      "picturesmobile": [
+        "https://i.ibb.co/ZByyfs1/cinabre-mobile1.png",
+        "https://i.ibb.co/VJttF4w/cinabre-mobile2.png",
+        "https://i.ibb.co/6rkrdqw/cinabre-mobile4.png",
+        "https://i.ibb.co/TKYL20R/cinabre-mobile5.png",
+        "https://i.ibb.co/89xvRbD/cinabre-mobile3.png",
+        "https://i.ibb.co/VTpBbrc/cinabre-mobile6.png",
+        "https://i.ibb.co/GHcqQ10/cinabre-mobile7.png",
+        "https://i.ibb.co/yhcWmdK/cinabre-mobile8.png",
+        "https://i.ibb.co/XL0w4kw/cinabre-mobile9.png"
+      ],
+      "githubname": [
+        "Module du thème",
+        "Module du footer",
+        "Module newsletter"
+      ],
+      "github": [
+        "https://github.com/ClemDSC/module_cinabre_theme",
+        "https://github.com/ClemDSC/module_cinabre_footer",
+        "https://github.com/ClemDSC/module_cinabre_newsletter"
+      ],
+      "link": "https://www.cinabre-paris.com/fr/",
+      "devDate": "2023 - 2024",
+      "role": ["Développement"],
+      "testimonial": "Clémence a su répondre à nos besoins et a su être force de proposition pour la refonte de notre site internet. Elle a su être réactive et à la hauteur de nos attentes.",
+      "testimonialAuthor": "Alban Tricoire",
+      "testimonialrole": "Directeur des opérations, Cinabre Paris"
+    },
+    {
+      "id": 4,
+      "keyurl": "tedxtours",
+      "title": "TEDx Tours",
+      "type": "Site vitrine / Maintenance",
+      "thumbnail": "https://i.ibb.co/q5sCyhr/tedxtours-desktop1.webp",
+      "stacks": ["Wordpress"],
+      "language": ["Php", "CSS"],
+      "description": "Site officiel de TEDx Tours, par l'association Agence Tours X.",
+      "descriptiondetail": "Ce site vitrine, développé avec le CMS Wordpress, présente les événements TEDx Tours, les speakers, les partenaires et les éditions précédentes. Il est également doté d'un blog, d'une page de contact et d'un accès ponctuel à une billeterie.",
+      "pictures": [
+        "https://i.ibb.co/q5sCyhr/tedxtours-desktop1.webp",
+        "https://i.ibb.co/KX5rdQk/tedxtours-desktop2.png",
+        "https://i.ibb.co/NWCmFj9/tedxtours-desktop3.png",
+        "https://i.ibb.co/McP2w35/tedxtours-desktop4.png",
+        "https://i.ibb.co/QKdTh3R/tedxtours-desktop5.png",
+        "https://i.ibb.co/C5MH2yJ/tedxtours-desktop6.png",
+        "https://i.ibb.co/YyDqcJR/tedxtours-desktop7.png",
+        "https://i.ibb.co/W2MMsm4/tedxtours-desktop8.png",
+        "https://i.ibb.co/qNp3MBV/tedxtours-desktop9.png"
+      ],
+      "picturesmobile": [
+        "https://i.ibb.co/vqJrYz8/tedxtours-mobile2.png",
+        "https://i.ibb.co/p0YF20M/tedxtours-mobile3.png",
+        "https://i.ibb.co/8rqKDwz/tedxtours-mobile4.png",
+        "https://i.ibb.co/51XrFcP/tedxtours-mobile5.png",
+        "https://i.ibb.co/ydjHPVx/tedxtours-mobile6.png",
+        "https://i.ibb.co/W3SYBdy/tedxtours-mobile7.png",
+        "https://i.ibb.co/8rFQfN9/tedxtours-mobile8.png",
+        "https://i.ibb.co/b7wqP77/tedxtours-mobile9.png",
+        "https://i.ibb.co/61HRpFG/tedxtours-mobile1.png"
+      ],
+      "githubname": [],
+      "github": [],
+      "link": "https://www.tedxtours.com/",
+      "contrainte": [
+        "Étant bénévole au sein de l'association et pleinement engagée dans la team Communication, je suis en charge de la maintenance du site.",
+        "Je m'occupe aussi bien de la mise à jour des contenus que de celles des widgets en back office.",
+        "Je suis également en charge de la mise en place de la billetterie pour les événements TEDx Tours.",
+        "En parallèle, je suis en charge de la mise en place des campagnes de mailings, de l'envoi des e-mails et de l'analyse des statistiques."
+      ],
+      "devDate": "2023 - Aujourd'hui",
+      "role": ["Développement", "Maintenance"],
+      "testimonial": "Clémence est une bénévole engagée, réactive et pro-active.",
+      "testimonialAuthor": "Jérôme T.",
+      "testimonialrole": "Président de l'association Agence Tours X"
+    },
+    {
+      "id": 5,
+      "title": "Easytis",
+      "keyurl": "easytis",
+      "type": "Fonctionnalités",
+      "thumbnail": "https://i.ibb.co/h2ZP769/easytis1.webp",
+      "stacks": ["Prestashop"],
+      "language": ["Php", "jQuery", "Html/Css"],
+      "description": "Boutique en ligne Easytis, spécialiste des solutions d'innovation pédagogique.",
+      "descriptiondetail": "Easytis disposait d'une boutique créée avec le CMS Prestashop, sous une version obsolète. L'objectif était de procéder à une refonte partielle du site, en choisissant un thème plus moderne, et d'ajouter des fonctionnalités pour améliorer aussi bien l'expérience utilisateur que celle des équipe Easytis.",
+      "pictures": [
+        "https://i.ibb.co/h2ZP769/easytis1.webp",
+        "https://i.ibb.co/PzTCm9B/easytis3.png",
+        "https://i.ibb.co/h7CkBsq/easytis4.png",
+        "https://i.ibb.co/PwcPmXs/easytis2.png",
+        "https://i.ibb.co/PCSkCX8/easytis7.png",
+        "https://i.ibb.co/6R2JFFz/easytis5.png",
+        "https://i.ibb.co/Vw2LwZh/easytis6.png"
+      ],
+      "picturesmobile": [
+        "https://i.ibb.co/7zQBgks/easytis-mobile2.webp",
+        "https://i.ibb.co/Dw9p5sS/easytis-mobile1.webp",
+        "https://i.ibb.co/mcqcsBJ/easytis-mobile3.webp"
+      ],
+      "githubname": [
+        "Module utilitaire",
+        "Module export des ventes",
+        "Module extension du module de devis"
+      ],
+      "github": [
+        "https://github.com/ClemDSC/module_eas_kl",
+        "https://github.com/ClemDSC/module_eas_sales",
+        "https://github.com/ClemDSC/module_eas_kl_quotation"
+      ],
+      "contrainte": [
+        "La contrainte majeure a été de conserver l'ensemble des fonctionnalités utilisées en back office, et de les faire fonctionner avec la nouvelle version installée, ainsi qu'avec une version de Php plus récente.",
+        "Après une période de tests par les équipes d'Easytis, j'ai pu fixer les bugs et les problèmes de compatibilité.",
+        "Pour les modules qui n'étaient plus compatibles, nous avons dû les remplacer par des modules plus récents, j'en ai d'ailleurs développé plusieurs moi-même (ajout de fonctionnalité à un module existant, export des ventes sur une période définie au format .csv... )."
+      ],
+      "link": "https://www.easytis.com/",
+      "devDate": "2023 - 2024",
+      "role": ["Développement", "Maintenance"],
+      "testimonial": "Clémence a su se rendre très disponible, aussi bien avant qu'après le déploiement du nouveau site. Nous la recommandons les yeux fermés !",
+      "testimonialAuthor": "Grégory Choisel",
+      "testimonialrole": "Directeur des Ventes, Easytis"
+    }
+  ]
+}
