@@ -105,7 +105,7 @@ function Contact() {
           </div>
           <div>
             <span className="text-sm">Whatsapp</span>
-            <p>+33 782 17 006 10</p>
+            <p>+33 782 17 06 10</p>
           </div>
         </div>
       </motion.div>
