@@ -142,12 +142,52 @@
       "link": "https://www.cinabre-paris.com/fr/",
       "devDate": "2023 - 2024",
       "role": ["Développement"],
-      "testimonial": "Clémence a su répondre à nos besoins et a su être force de proposition pour la refonte de notre site internet. Elle a su être réactive et à la hauteur de nos attentes.",
+      "testimonial": "",
       "testimonialAuthor": "Alban Tricoire",
       "testimonialrole": "Directeur des opérations, Cinabre Paris"
     },
     {
       "id": 4,
+      "keyurl": "agencedigitale",
+      "title": "Agence Digitale",
+      "type": "Landing page",
+      "thumbnail": "https://i.ibb.co/PxJ9F41/agence-digitale.png",
+      "stacks": ["React", "Framer Motion", "Firebase"],
+      "language": ["Javascript"],
+      "description": "Landing page de l'Agence Digitale.",
+      "descriptiondetail": "L'Agence Digitale avait besoin d'une landing page permettant de présenter ses services de manière efficace.",
+      "contrainte": [
+        "J'ai proposé des solutions modernes pour mettre en valeur les services de mes clients.",
+        "La seule contrainte était d'intégrer des animations discrètes lors du défilement de la page.",
+        "J'ai réalisé l'intégration complète da la page à l'aide de Framer Motion."
+      ],
+      "pictures": [
+        "https://i.ibb.co/PxJ9F41/agence-digitale.png",
+        "https://i.ibb.co/P9vzm8P/agence-digitale2.png",
+        "https://i.ibb.co/f24yzK9/agence-digitale5.png",
+        "https://i.ibb.co/bPRmG0c/agence-digitale3.png",
+        "https://i.ibb.co/8c0PCzf/agence-digitale4.png"
+      ],
+      "picturesmobile": [
+        "https://i.ibb.co/yfMSkzC/agence-digitale-mobile5.png",
+        "https://i.ibb.co/HgqqqSL/agence-digitale-mobile4.png",
+        "https://i.ibb.co/qkPK2x7/agence-digitale-mobile3.png",
+        "https://i.ibb.co/bLHbdPL/agence-digitale-mobile2.png",
+        "https://i.ibb.co/KXYsnZg/agence-digitale-mobile1.png"
+      ],
+      "githubname": ["Repo du site"],
+      "github": [
+        "https://github.com/ClemDSC/landing_page"
+      ],
+      "link": "https://cpdw-landing-page.web.app/",
+      "devDate": "2024",
+      "role": ["Conception", "Développement", "Maintenance"],
+      "testimonial": "Nous avons travaillé avec Clémence, elle a su comprendre nos besoins et à complètement rempli le contrat ! Nous la recommandons les yeux fermés !",
+      "testimonialAuthor": "Jack O'N.",
+      "testimonialrole": "Fondateur"
+    },
+    {
+      "id": 5,
       "keyurl": "tedxtours",
       "title": "TEDx Tours",
       "type": "Site vitrine / Maintenance",
@@ -194,7 +234,7 @@
       "testimonialrole": "Président de l'association Agence Tours X"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Easytis",
       "keyurl": "easytis",
       "type": "Fonctionnalités",
@@ -235,7 +275,7 @@
       "link": "https://www.easytis.com/",
       "devDate": "2023 - 2024",
       "role": ["Développement", "Maintenance"],
-      "testimonial": "Clémence a su se rendre très disponible, aussi bien avant qu'après le déploiement du nouveau site. Nous la recommandons les yeux fermés !",
+      "testimonial": "",
       "testimonialAuthor": "Grégory Choisel",
       "testimonialrole": "Directeur des Ventes, Easytis"
     }

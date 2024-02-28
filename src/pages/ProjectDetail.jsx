@@ -65,6 +65,17 @@ function ProjectDetail() {
             </div>
 
             <p className="mt-2 mb-4 md:mb-8">{project.description}</p>
+            <Link to={`${project.link}`} target="_blank">
+              <button
+                className={`hidden border-2 rounded-lg py-2 px-4 md:px-8 mb-10 lg:block w-fit ${
+                  theme === "winter"
+                    ? "text-light-text bg-base-100"
+                    : "text-dark-text bg-neutral-content"
+                }}`}
+              >
+                Voir le site
+              </button>
+            </Link>
           </div>
           <Link to={`${project.link}`} target="_blank" className="md:w-1/2">
             <div className="mb-4 md:mb-8">
@@ -75,7 +86,7 @@ function ProjectDetail() {
               />
             </div>
             <button
-              className={`border-2 rounded-lg py-2 px-4 md:px-8 mb-10 ${
+              className={`border-2 rounded-lg py-2 px-4 md:px-8 mb-10 lg:hidden ${
                 theme === "winter"
                   ? "text-light-text bg-base-100"
                   : "text-dark-text bg-neutral-content"
@@ -214,21 +225,22 @@ function ProjectDetail() {
               ))}
           </motion.div>
         </div>
-
-        <motion.div
-          variants={itemVariants}
-          initial="hidden"
-          animate="visible"
-          className={`rounded-lg py-6 px-4 md:px-8 mb-2 ${
-            theme === "winter"
-              ? "text-light-text bg-base-100 border border-light-text"
-              : "bg-dark-text text-neutral-content border border-primary"
-          }}`}
-        >
-          <p className="mb-4">"{project.testimonial}"</p>
-          <p className="text-sm text-end">{project.testimonialAuthor}</p>
-          <p className="text-sm text-end">{project.testimonialrole}</p>
-        </motion.div>
+        {project.testimonial !== "" && (
+          <motion.div
+            variants={itemVariants}
+            initial="hidden"
+            animate="visible"
+            className={`rounded-lg py-6 px-4 md:px-8 mb-2 ${
+              theme === "winter"
+                ? "text-light-text bg-base-100 border border-light-text"
+                : "bg-dark-text text-neutral-content border border-primary"
+            }}`}
+          >
+            <p className="mb-4">"{project.testimonial}"</p>
+            <p className="text-sm text-end">{project.testimonialAuthor}</p>
+            <p className="text-sm text-end">{project.testimonialrole}</p>
+          </motion.div>
+        )}
       </section>
       <div className="divider divider-neutral"></div>
 
