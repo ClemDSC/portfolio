@@ -80,6 +80,7 @@ function ProjectDetail() {
           <Link to={`${project.link}`} target="_blank" className="md:w-1/2">
             <div className="mb-4 md:mb-8">
               <img
+                loading="lazy"
                 className="rounded-lg"
                 src={project.thumbnail}
                 alt={project.title}
@@ -195,6 +196,7 @@ function ProjectDetail() {
                       src={picture}
                       className="object-cover aspect-video object-top"
                       alt={project.title}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -218,6 +220,7 @@ function ProjectDetail() {
                         src={picture}
                         className="object-cover object-center"
                         alt={project.title}
+                        loading="lazy"
                       />
                     </div>
                   </div>

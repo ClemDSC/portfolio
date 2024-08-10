@@ -59,7 +59,7 @@ function Contact() {
             } `}
           >
             <span className="tooltip" data-tip="À venir...">
-            Consulter les offres
+              Consulter les offres
             </span>
             {/* <a href="http://clemencepham-web.fr/" target="blank">
             Consulter les offres
@@ -98,19 +98,26 @@ function Contact() {
           <div>
             <span className="text-sm">Email</span>
             <p>
-              <a className="text-sm md:text-base" href="mailto:clemencepham.web@gmail.com">
+              <a
+                className="text-sm md:text-base"
+                href="mailto:clemencepham.web@gmail.com"
+              >
                 clemencepham.web@gmail.com
               </a>
             </p>
           </div>
           <div>
             <span className="text-sm">Whatsapp</span>
-            <p>+33 782 17 06 10</p>
+            <p>
+              <a href="https://wa.me/33782170610?text=Bonjour%20!%20J%27ai%20une%20question...">
+                +33 782 17 06 10
+              </a>
+            </p>
           </div>
         </div>
       </motion.div>
       <div className="md:fixed md:inset-x-0 md:bottom-2">
-      <Footer />
+        <Footer />
       </div>
     </motion.section>
   );

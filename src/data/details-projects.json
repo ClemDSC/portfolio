@@ -46,7 +46,7 @@
       "keyurl": "aloparis",
       "title": "A L'O",
       "type": "Boutique en ligne / Fonctionnalités",
-      "thumbnail": "https://i.ibb.co/z4KMbpM/alo-desktop1.webp",
+      "thumbnail": "/assets/images/alo-desktop1.webp",
       "stacks": ["Prestashop"],
       "language": ["Php", "jQuery", "Html/Css"],
       "description": "Boutique en ligne du concept store parisien A L'O.",
@@ -58,26 +58,26 @@
         "J'ai également participé au développement d'un module permettant la mise en place de précommandes, ainsi qu'à son intégration sur le site."
       ],
       "pictures": [
-        "https://i.ibb.co/z4KMbpM/alo-desktop1.webp",
-        "https://i.ibb.co/wYB2jVn/alo-desktop2.png",
-        "https://i.ibb.co/k6j2HP0/alo-desktop6.png",
-        "https://i.ibb.co/fQwZZWy/alo-desktop3.png",
-        "https://i.ibb.co/HNNrg1H/alo-desktop4.png",
-        "https://i.ibb.co/K2KPygh/alo-desktop5.png",
-        "https://i.ibb.co/3fR33CH/alo-desktop7.png",
-        "https://i.ibb.co/TWMYkdj/alo-desktop8.png",
-        "https://i.ibb.co/3CHvptb/alo-desktop9.png"
+        "/assets/images/alo-desktop1.webp",
+        "/assets/images/alo-desktop2.webp",
+        "/assets/images/alo-desktop6.webp",
+        "/assets/images/alo-desktop3.webp",
+        "/assets/images/alo-desktop4.webp",
+        "/assets/images/alo-desktop5.webp",
+        "/assets/images/alo-desktop7.webp",
+        "/assets/images/alo-desktop8.webp",
+        "/assets/images/alo-desktop9.webp"
       ],
       "picturesmobile": [
-        "https://i.ibb.co/QP9H1RX/alo-mobile6.png",
-        "https://i.ibb.co/9wdPDtG/alo-mobile2.png",
-        "https://i.ibb.co/Hg9yVwL/alo-mobile4.png",
-        "https://i.ibb.co/s9tDN8X/alo-mobile5.png",
-        "https://i.ibb.co/XjQKSW6/alo-mobile9.png",
-        "https://i.ibb.co/HVytPNX/alo-mobile7.png",
-        "https://i.ibb.co/8X1SM8g/alo-mobile8.png",
-        "https://i.ibb.co/RPhnRbv/alo-mobile1.png",
-        "https://i.ibb.co/hB5bXs1/alo-mobile3.png"
+        "/assets/images/alo-mobile6.webp",
+        "/assets/images/alo-mobile2.webp",
+        "/assets/images/alo-mobile4.webp",
+        "/assets/images/alo-mobile5.webp",
+        "/assets/images/alo-mobile9.webp",
+        "/assets/images/alo-mobile7.webp",
+        "/assets/images/alo-mobile8.webp",
+        "/assets/images/alo-mobile1.webp",
+        "/assets/images/alo-mobile3.webp"
       ],
       "githubname": ["Module du thème", "Module précommandes"],
       "github": [
@@ -151,7 +151,7 @@
       "keyurl": "agencedigitale",
       "title": "Agence Digitale",
       "type": "Landing page",
-      "thumbnail": "https://i.ibb.co/PxJ9F41/agence-digitale.png",
+      "thumbnail": "/assets/images/agence-digitale.webp",
       "stacks": ["React", "Framer Motion", "Firebase"],
       "language": ["Javascript"],
       "description": "Landing page de l'Agence Digitale.",
@@ -162,18 +162,18 @@
         "J'ai réalisé l'intégration complète da la page à l'aide de Framer Motion."
       ],
       "pictures": [
-        "https://i.ibb.co/PxJ9F41/agence-digitale.png",
-        "https://i.ibb.co/P9vzm8P/agence-digitale2.png",
-        "https://i.ibb.co/f24yzK9/agence-digitale5.png",
-        "https://i.ibb.co/bPRmG0c/agence-digitale3.png",
-        "https://i.ibb.co/8c0PCzf/agence-digitale4.png"
+        "/assets/images/agence-digitale.webp",
+        "/assets/images/agence_digitale2.webp",
+        "/assets/images/agence_digitale5.webp",
+        "/assets/images/agence_digitale3.webp",
+        "/assets/images/agence_digitale4.webp"
       ],
       "picturesmobile": [
-        "https://i.ibb.co/yfMSkzC/agence-digitale-mobile5.png",
-        "https://i.ibb.co/HgqqqSL/agence-digitale-mobile4.png",
-        "https://i.ibb.co/qkPK2x7/agence-digitale-mobile3.png",
-        "https://i.ibb.co/bLHbdPL/agence-digitale-mobile2.png",
-        "https://i.ibb.co/KXYsnZg/agence-digitale-mobile1.png"
+        "/assets/images/agence_digitale_mobile5.webp",
+        "/assets/images/agence_digitale_mobile4.webp",
+        "/assets/images/agence_digitale_mobile3.webp",
+        "/assets/images/agence_digitale_mobile2.webp",
+        "/assets/images/agence_digitale_mobile1.webp"
       ],
       "githubname": ["Repo du site"],
       "github": [
