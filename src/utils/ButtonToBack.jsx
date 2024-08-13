@@ -5,7 +5,7 @@ export default function ButtonToBack() {
   const { theme } = useTheme();
 
   return (
-    <button
+    <button aria-label="Retour vers la page Projets"
       className={`border-2 rounded-lg py-2 mt-2 px-4 md:px-8 ${
         theme === "winter"
           ? "text-light-text bg-base-100"

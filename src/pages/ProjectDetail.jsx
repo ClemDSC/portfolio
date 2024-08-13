@@ -66,7 +66,7 @@ function ProjectDetail() {
 
             <p className="mt-2 mb-4 md:mb-8">{project.description}</p>
             <Link to={`${project.link}`} target="_blank">
-              <button
+              <button aria-label="Voir le site"
                 className={`hidden border-2 rounded-lg py-2 px-4 md:px-8 mb-10 lg:block w-fit ${
                   theme === "winter"
                     ? "text-light-text bg-base-100"
@@ -86,7 +86,7 @@ function ProjectDetail() {
                 alt={project.title}
               />
             </div>
-            <button
+            <button aria-label="Voir le site"
               className={`border-2 rounded-lg py-2 px-4 md:px-8 mb-10 lg:hidden ${
                 theme === "winter"
                   ? "text-light-text bg-base-100"

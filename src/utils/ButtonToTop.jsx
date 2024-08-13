@@ -9,7 +9,7 @@ export default function ButtonToTop() {
   }
 
   return (
-    <button
+    <button aria-label="Retour vers le haut de page"
       onClick={scrollToTop}
       className={`border-2 rounded-lg py-2 mt-2 px-4 md:px-8 ${
         theme === "winter"

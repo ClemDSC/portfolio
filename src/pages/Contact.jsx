@@ -51,7 +51,7 @@ function Contact() {
           <p className="pb-4">
             Découvrez mes solutions sur-mesure et boostez votre business.
           </p>
-          <button
+          <button aria-label="Consulter les offres"
             className={`md:absolute md:bottom-0 rounded-lg w-full md:w-fit py-2 md:px-8 ${
               theme === "winter"
                 ? "bg-light-text text-base-100"
@@ -69,7 +69,7 @@ function Contact() {
         <div className="md:w-1/2 md:min-h-[164px] md:relative">
           <p className="text-xl pb-2">Agences, professionnels, ESN</p>
           <p className="pb-4">Prêts à collaborer ?</p>
-          <button
+          <button aria-label="Voir le TJM sur Malt"
             className={`md:absolute md:bottom-0 rounded-lg w-full md:w-fit py-2 md:px-8 border-2 ${
               theme === "winter"
                 ? "text-light-text bg-base-100"

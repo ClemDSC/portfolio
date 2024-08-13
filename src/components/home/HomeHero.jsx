@@ -4,7 +4,7 @@ import SVGLocation from "../svg/SVGLocation";
 function HomeHero({ theme }) {
   return (
     <>
-      <button
+      <button aria-label="Badge : disponible"
         className={`w-fit px-2 rounded-badge ${
           theme === "winter"
             ? "bg-[#09e37d29] text-[#088046]"
@@ -19,7 +19,7 @@ function HomeHero({ theme }) {
           ta créatrice de site web tourangelle préférée 👋
         </span>
       </h1>
-      <button className="badge badge-outline py-4 text-dark-text flex w-fit items-center gap-2 text-sm md:text-base md:-mt-8">
+      <button aria-label="Badge de localisation : Tours" className="badge badge-outline py-4 text-dark-text flex w-fit items-center gap-2 text-sm md:text-base md:-mt-8">
         <SVGLocation />{" "}
         Tours, France.
       </button>
@@ -31,12 +31,12 @@ function HomeHero({ theme }) {
         web sur mesure pour répondre aux besoins de mes clients.
       </h2>
       <div className="flex flex-col gap-4 md:flex-row">
-        <button className={` w-full md:w-fit py-2 md:px-8 rounded-lg shadow hover:shadow-lg ${
+        <button aria-label="Lien vers la page A propos" className={` w-full md:w-fit py-2 md:px-8 rounded-lg shadow hover:shadow-lg ${
               theme === "winter"
                 ? "bg-light-text text-base-100"
                 : "bg-dark-text text-neutral-content"
             } `}><Link to="/about">À propos</Link></button>
-        <button className={`w-full md:w-fit py-2 md:px-8 border-2 ${
+        <button aria-label="Envoyer un mail à Clémence" className={`w-full md:w-fit py-2 md:px-8 border-2 ${
               theme === "winter"
                 ? "text-light-text bg-base-100"
                 : "text-dark-text bg-neutral-content"

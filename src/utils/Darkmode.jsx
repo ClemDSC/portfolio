@@ -11,6 +11,7 @@ function Darkmode() {
   return (
     <label className="swap swap-rotate pr-4">
       <input
+        aria-labelledby="theme-controller-label"
         type="checkbox"
         className="theme-controller"
         value="synthwave"
