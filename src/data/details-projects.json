@@ -5,7 +5,7 @@
       "keyurl": "tourspaddlingclub",
       "title": "Tours Paddling Club",
       "type": "Site vitrine",
-      "thumbnail": "https://i.ibb.co/SQSNpDc/tpc-desktop2.webp",
+      "thumbnail": "/assets/images/tpc/tpc-homepage.webp",
       "stacks": ["React", "Firebase", "ChakraUI"],
       "language": ["Javascript"],
       "description": "Site vitrine de l'association sportive tourangelle Tours Paddling Club",
@@ -18,19 +18,18 @@
         "J'ai également utilisé ChakraUI pour la partie design, pour sa facilité d'utilisation et sa personnalisation."
       ],
       "pictures": [
-        "https://i.ibb.co/SQSNpDc/tpc-desktop2.webp",
-        "https://i.ibb.co/BgKcTzm/tpc-desktop1.png",
-        "https://i.ibb.co/TTqYPNH/tpc-desktop5.png",
-        "https://i.ibb.co/b6Vwj3C/tpc-desktop4.png",
-        "https://i.ibb.co/PZtrr6D/tpc-desktop3.png"
+        "/assets/images/tpc/tpc-homepage.webp",
+        "/assets/images/tpc/tpc-desktop1.webp",
+        "/assets/images/tpc/tpc-desktop5.webp",
+        "/assets/images/tpc/tpc-desktop4.webp",
+        "/assets/images/tpc/tpc-desktop3.webp"
       ],
       "picturesmobile": [
-        "https://i.ibb.co/frJy3rv/tpc-mobile1.png",
-        "https://i.ibb.co/L91K40P/tpc-mobile2.png",
-        "https://i.ibb.co/4tWPf4v/tpc-mobile4.png",
-        "https://i.ibb.co/GT50gfs/tpc-mobile3.png",
-        "",
-        "https://i.ibb.co/5sCMhNT/tpc-mobile5.png"
+        "/assets/images/tpc/tpc-mobile1.webp",
+        "/assets/images/tpc/tpc-mobile2.webp",
+        "/assets/images/tpc/tpc-mobile4.webp",
+        "/assets/images/tpc/tpc-mobile3.webp",
+        "/assets/images/tpc/tpc-mobile5.webp"
       ],
       "githubname": ["Repo du site"],
       "github": ["https://github.com/ClemDSC/tourspaddlingclub"],
@@ -46,7 +45,7 @@
       "keyurl": "aloparis",
       "title": "A L'O",
       "type": "Boutique en ligne / Fonctionnalités",
-      "thumbnail": "/assets/images/alo-desktop1.webp",
+      "thumbnail": "/assets/images/alo/alo-desktop1.webp",
       "stacks": ["Prestashop"],
       "language": ["Php", "jQuery", "Html/Css"],
       "description": "Boutique en ligne du concept store parisien A L'O.",
@@ -58,26 +57,26 @@
         "J'ai également participé au développement d'un module permettant la mise en place de précommandes, ainsi qu'à son intégration sur le site."
       ],
       "pictures": [
-        "/assets/images/alo-desktop1.webp",
-        "/assets/images/alo-desktop2.webp",
-        "/assets/images/alo-desktop6.webp",
-        "/assets/images/alo-desktop3.webp",
-        "/assets/images/alo-desktop4.webp",
-        "/assets/images/alo-desktop5.webp",
-        "/assets/images/alo-desktop7.webp",
-        "/assets/images/alo-desktop8.webp",
-        "/assets/images/alo-desktop9.webp"
+        "/assets/images/alo/alo-desktop1.webp",
+        "/assets/images/alo/alo-desktop2.webp",
+        "/assets/images/alo/alo-desktop6.webp",
+        "/assets/images/alo/alo-desktop3.webp",
+        "/assets/images/alo/alo-desktop4.webp",
+        "/assets/images/alo/alo-desktop5.webp",
+        "/assets/images/alo/alo-desktop7.webp",
+        "/assets/images/alo/alo-desktop8.webp",
+        "/assets/images/alo/alo-desktop9.webp"
       ],
       "picturesmobile": [
-        "/assets/images/alo-mobile6.webp",
-        "/assets/images/alo-mobile2.webp",
-        "/assets/images/alo-mobile4.webp",
-        "/assets/images/alo-mobile5.webp",
-        "/assets/images/alo-mobile9.webp",
-        "/assets/images/alo-mobile7.webp",
-        "/assets/images/alo-mobile8.webp",
-        "/assets/images/alo-mobile1.webp",
-        "/assets/images/alo-mobile3.webp"
+        "/assets/images/alo/alo-mobile6.webp",
+        "/assets/images/alo/alo-mobile2.webp",
+        "/assets/images/alo/alo-mobile4.webp",
+        "/assets/images/alo/alo-mobile5.webp",
+        "/assets/images/alo/alo-mobile9.webp",
+        "/assets/images/alo/alo-mobile7.webp",
+        "/assets/images/alo/alo-mobile8.webp",
+        "/assets/images/alo/alo-mobile1.webp",
+        "/assets/images/alo/alo-mobile3.webp"
       ],
       "githubname": ["Module du thème", "Module précommandes"],
       "github": [
@@ -96,7 +95,7 @@
       "keyurl": "cinabre",
       "title": "Cinabre",
       "type": "Boutique en ligne / Refonte",
-      "thumbnail": "https://i.ibb.co/YPvC5pb/cinabre-desktop1.webp",
+      "thumbnail": "/assets/images/cinabre/cinabre-desktop1.webp",
       "stacks": ["Prestashop"],
       "language": ["Php", "jQuery", "Html/Css"],
       "description": "Boutique en ligne de la maison Cinabre, spécialiste des accessoires autour du cou.",
@@ -108,26 +107,26 @@
         "Un formulaire de souscription à la newsletter a été intégré au centre de la nouvelle page d'accueil, ainsi que dans le pied de page."
       ],
       "pictures": [
-        "https://i.ibb.co/YPvC5pb/cinabre-desktop1.webp",
-        "https://i.ibb.co/f4fr4vn/cinabre-desktop2.png",
-        "https://i.ibb.co/f1SC9M5/cinabre-desktop4.png",
-        "https://i.ibb.co/zQ5JYpt/cinabre-desktop3.png",
-        "https://i.ibb.co/6sNWTBx/cinabre-desktop5.png",
-        "https://i.ibb.co/M7JtkCz/cinabre-desktop7.png",
-        "https://i.ibb.co/dQJp9Tk/cinabre-desktop6.png",
-        "https://i.ibb.co/XWvJxZT/cinabre-desktop8.png",
-        "https://i.ibb.co/929nPv8/cinabre-desktop9.png"
+        "/assets/images/cinabre/cinabre-desktop1.webp",
+        "/assets/images/cinabre/cinabre-desktop2.webp",
+        "/assets/images/cinabre/cinabre-desktop4.webp",
+        "/assets/images/cinabre/cinabre-desktop3.webp",
+        "/assets/images/cinabre/cinabre-desktop5.webp",
+        "/assets/images/cinabre/cinabre-desktop7.webp",
+        "/assets/images/cinabre/cinabre-desktop6.webp",
+        "/assets/images/cinabre/cinabre-desktop8.webp",
+        "/assets/images/cinabre/cinabre-desktop9.webp"
       ],
       "picturesmobile": [
-        "https://i.ibb.co/ZByyfs1/cinabre-mobile1.png",
-        "https://i.ibb.co/VJttF4w/cinabre-mobile2.png",
-        "https://i.ibb.co/6rkrdqw/cinabre-mobile4.png",
-        "https://i.ibb.co/TKYL20R/cinabre-mobile5.png",
-        "https://i.ibb.co/89xvRbD/cinabre-mobile3.png",
-        "https://i.ibb.co/VTpBbrc/cinabre-mobile6.png",
-        "https://i.ibb.co/GHcqQ10/cinabre-mobile7.png",
-        "https://i.ibb.co/yhcWmdK/cinabre-mobile8.png",
-        "https://i.ibb.co/XL0w4kw/cinabre-mobile9.png"
+        "/assets/images/cinabre/cinabre-mobile1.webp",
+        "/assets/images/cinabre/cinabre-mobile2.webp",
+        "/assets/images/cinabre/cinabre-mobile4.webp",
+        "/assets/images/cinabre/cinabre-mobile5.webp",
+        "/assets/images/cinabre/cinabre-mobile3.webp",
+        "/assets/images/cinabre/cinabre-mobile6.webp",
+        "/assets/images/cinabre/cinabre-mobile7.webp",
+        "/assets/images/cinabre/cinabre-mobile8.webp",
+        "/assets/images/cinabre/cinabre-mobile9.webp"
       ],
       "githubname": [
         "Module du thème",
@@ -151,7 +150,7 @@
       "keyurl": "agencedigitale",
       "title": "Agence Digitale",
       "type": "Landing page",
-      "thumbnail": "/assets/images/agence-digitale.webp",
+      "thumbnail": "/assets/images/agence-digitale/agence-digitale.webp",
       "stacks": ["React", "Framer Motion", "Firebase"],
       "language": ["Javascript"],
       "description": "Landing page de l'Agence Digitale.",
@@ -162,18 +161,18 @@
         "J'ai réalisé l'intégration complète da la page à l'aide de Framer Motion."
       ],
       "pictures": [
-        "/assets/images/agence-digitale.webp",
-        "/assets/images/agence_digitale2.webp",
-        "/assets/images/agence_digitale5.webp",
-        "/assets/images/agence_digitale3.webp",
-        "/assets/images/agence_digitale4.webp"
+        "/assets/images/agence-digitale/agence-digitale.webp",
+        "/assets/images/agence-digitale/agence_digitale2.webp",
+        "/assets/images/agence-digitale/agence_digitale5.webp",
+        "/assets/images/agence-digitale/agence_digitale3.webp",
+        "/assets/images/agence-digitale/agence_digitale4.webp"
       ],
       "picturesmobile": [
-        "/assets/images/agence_digitale_mobile5.webp",
-        "/assets/images/agence_digitale_mobile4.webp",
-        "/assets/images/agence_digitale_mobile3.webp",
-        "/assets/images/agence_digitale_mobile2.webp",
-        "/assets/images/agence_digitale_mobile1.webp"
+        "/assets/images/agence-digitale/agence_digitale_mobile5.webp",
+        "/assets/images/agence-digitale/agence_digitale_mobile4.webp",
+        "/assets/images/agence-digitale/agence_digitale_mobile3.webp",
+        "/assets/images/agence-digitale/agence_digitale_mobile2.webp",
+        "/assets/images/agence-digitale/agence_digitale_mobile1.webp"
       ],
       "githubname": ["Repo du site"],
       "github": [
@@ -191,32 +190,32 @@
       "keyurl": "tedxtours",
       "title": "TEDx Tours",
       "type": "Site vitrine / Maintenance",
-      "thumbnail": "https://i.ibb.co/q5sCyhr/tedxtours-desktop1.webp",
+      "thumbnail": "/assets/images/tedxtours/tedxtours-desktop1.webp",
       "stacks": ["Wordpress"],
       "language": ["Php", "CSS"],
       "description": "Site officiel de TEDx Tours, par l'association Agence Tours X.",
       "descriptiondetail": "Ce site vitrine, développé avec le CMS Wordpress, présente les événements TEDx Tours, les speakers, les partenaires et les éditions précédentes. Il est également doté d'un blog, d'une page de contact et d'un accès ponctuel à une billeterie.",
       "pictures": [
-        "https://i.ibb.co/q5sCyhr/tedxtours-desktop1.webp",
-        "https://i.ibb.co/KX5rdQk/tedxtours-desktop2.png",
-        "https://i.ibb.co/NWCmFj9/tedxtours-desktop3.png",
-        "https://i.ibb.co/McP2w35/tedxtours-desktop4.png",
-        "https://i.ibb.co/QKdTh3R/tedxtours-desktop5.png",
-        "https://i.ibb.co/C5MH2yJ/tedxtours-desktop6.png",
-        "https://i.ibb.co/YyDqcJR/tedxtours-desktop7.png",
-        "https://i.ibb.co/W2MMsm4/tedxtours-desktop8.png",
-        "https://i.ibb.co/qNp3MBV/tedxtours-desktop9.png"
+        "/assets/images/tedxtours/tedxtours-desktop1.webp",
+        "/assets/images/tedxtours/tedxtours-desktop2.webp",
+        "/assets/images/tedxtours/tedxtours-desktop3.webp",
+        "/assets/images/tedxtours/tedxtours-desktop4.webp",
+        "/assets/images/tedxtours/tedxtours-desktop5.webp",
+        "/assets/images/tedxtours/tedxtours-desktop6.webp",
+        "/assets/images/tedxtours/tedxtours-desktop7.webp",
+        "/assets/images/tedxtours/tedxtours-desktop8.webp",
+        "/assets/images/tedxtours/tedxtours-desktop9.webp"
       ],
       "picturesmobile": [
-        "https://i.ibb.co/vqJrYz8/tedxtours-mobile2.png",
-        "https://i.ibb.co/p0YF20M/tedxtours-mobile3.png",
-        "https://i.ibb.co/8rqKDwz/tedxtours-mobile4.png",
-        "https://i.ibb.co/51XrFcP/tedxtours-mobile5.png",
-        "https://i.ibb.co/ydjHPVx/tedxtours-mobile6.png",
-        "https://i.ibb.co/W3SYBdy/tedxtours-mobile7.png",
-        "https://i.ibb.co/8rFQfN9/tedxtours-mobile8.png",
-        "https://i.ibb.co/b7wqP77/tedxtours-mobile9.png",
-        "https://i.ibb.co/61HRpFG/tedxtours-mobile1.png"
+        "/assets/images/tedxtours/tedxtours-mobile2.webp",
+        "/assets/images/tedxtours/tedxtours-mobile3.webp",
+        "/assets/images/tedxtours/tedxtours-mobile4.webp",
+        "/assets/images/tedxtours/tedxtours-mobile5.webp",
+        "/assets/images/tedxtours/tedxtours-mobile6.webp",
+        "/assets/images/tedxtours/tedxtours-mobile7.webp",
+        "/assets/images/tedxtours/tedxtours-mobile8.webp",
+        "/assets/images/tedxtours/tedxtours-mobile9.webp",
+        "/assets/images/tedxtours/tedxtours-mobile1.webp"
       ],
       "githubname": [],
       "github": [],
@@ -238,24 +237,25 @@
       "title": "Easytis",
       "keyurl": "easytis",
       "type": "Fonctionnalités",
-      "thumbnail": "https://i.ibb.co/h2ZP769/easytis1.webp",
+      "thumbnail": "/assets/images/easytis/easytis-homepage.webp",
       "stacks": ["Prestashop"],
       "language": ["Php", "jQuery", "Html/Css"],
       "description": "Boutique en ligne Easytis, spécialiste des solutions d'innovation pédagogique.",
       "descriptiondetail": "Easytis disposait d'une boutique créée avec le CMS Prestashop, sous une version obsolète. L'objectif était de procéder à une refonte partielle du site, en choisissant un thème plus moderne, et d'ajouter des fonctionnalités pour améliorer aussi bien l'expérience utilisateur que celle des équipe Easytis.",
       "pictures": [
-        "https://i.ibb.co/h2ZP769/easytis1.webp",
-        "https://i.ibb.co/PzTCm9B/easytis3.png",
-        "https://i.ibb.co/h7CkBsq/easytis4.png",
-        "https://i.ibb.co/PwcPmXs/easytis2.png",
-        "https://i.ibb.co/PCSkCX8/easytis7.png",
-        "https://i.ibb.co/6R2JFFz/easytis5.png",
-        "https://i.ibb.co/Vw2LwZh/easytis6.png"
+        "/assets/images/easytis/easytis-homepage.webp",
+        "/assets/images/easytis/easytis4.webp",
+        "/assets/images/easytis/easytis2.webp",
+        "/assets/images/easytis/easytis7.webp",
+        "/assets/images/easytis/easytis5.webp",
+        "/assets/images/easytis/easytis6.webp"
       ],
       "picturesmobile": [
-        "https://i.ibb.co/7zQBgks/easytis-mobile2.webp",
-        "https://i.ibb.co/Dw9p5sS/easytis-mobile1.webp",
-        "https://i.ibb.co/mcqcsBJ/easytis-mobile3.webp"
+        "/assets/images/easytis/easytis-mobile1.webp",
+        "/assets/images/easytis/easytis-mobile5.webp",
+        "/assets/images/easytis/easytis-mobile2.webp",
+        "/assets/images/easytis/easytis-mobile3.webp",
+        "/assets/images/easytis/easytis-mobile4.webp"
       ],
       "githubname": [
         "Module utilitaire",
