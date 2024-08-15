@@ -278,6 +278,42 @@
       "testimonial": "",
       "testimonialAuthor": "Grégory Choisel",
       "testimonialrole": "Directeur des Ventes, Easytis"
+    },
+    {
+      "id": 7,
+      "title": "Portfolio - photographe",
+      "keyurl": "portfolio-photographe",
+      "type": "Portfolio",
+      "thumbnail": "/assets/images/pascalp/pascalp-desktop2.webp",
+      "stacks": ["Framer"],
+      "language": ["Framer"],
+      "description": "Portfolio du photgraphe Pascal P.",
+      "descriptiondetail": "Pascal est photographe depuis de nombreuses années, il a déjà été sollicité pour monter des expositions, grâce à la mise en ligne de ses créations sur un réseau social. Il avait besoin d'une solution plus professionnelle.",
+      "pictures": [
+        "/assets/images/pascalp/pascalp-desktop2.webp",
+        "/assets/images/pascalp/pascalp-desktop5.webp",
+        "/assets/images/pascalp/pascalp-desktop1.webp",
+        "/assets/images/pascalp/pascalp-desktop3.webp",
+        "/assets/images/pascalp/pascalp-desktop4.webp"
+      ],
+      "picturesmobile": [
+        "/assets/images/pascalp/pascalp-mobile1.webp",
+        "/assets/images/pascalp/pascalp-mobile2.webp",
+        "/assets/images/pascalp/pascalp-mobile4.webp",
+        "/assets/images/pascalp/pascalp-mobile5.webp",
+        "/assets/images/pascalp/pascalp-mobile3.webp"
+      ],
+      "githubname": [],
+      "github": [],
+      "contrainte": [
+        "Pascal souhaitait pouvoir gérer lui-même son contenu, comme il en a l'habitude sur les réseaux sociaux. Il voulait aussi des animations fluides. Nous avons convenu d'utiliser le CMS Framer."
+      ],
+      "link": "https://pascal-p-photographe.framer.website/",
+      "devDate": "2024",
+      "role": ["Développement", "Maintenance"],
+      "testimonial": "Clémence a compris mes besoins et m'a proposé une solution parfaite pour moi, simple à utiliser.",
+      "testimonialAuthor": "Pascal P",
+      "testimonialrole": "Photographe"
     }
   ]
 }
