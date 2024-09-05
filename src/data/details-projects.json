@@ -1,6 +1,48 @@
 {
   "projects": [
     {
+      "id": 8,
+      "title": "Yoga with Sara",
+      "keyurl": "yoga-with-sara",
+      "type": "Site vitrine / Réservation",
+      "thumbnail": "/assets/images/yogawithsara/yogawithsara-desktop-1.webp",
+      "stacks": ["React", "Firebase", "Framer Motion", "Tailwind"],
+      "language": ["Javascript"],
+      "description": "Site vitrine & réservation en ligne pour Sara, professeur de yoga.",
+      "descriptiondetail": "Sara est professeur de yoga indépendante. Elle propose différents cours et différentes pratiques, en s'adaptant au niveau des pratiquants.",
+      "pictures": [
+        "/assets/images/yogawithsara/yogawithsara-desktop-1.webp",
+        "/assets/images/yogawithsara/yogawithsara-desktop-2.webp",
+        "/assets/images/yogawithsara/yogawithsara-desktop-3.webp",
+        "/assets/images/yogawithsara/yogawithsara-desktop-4.webp",
+        "/assets/images/yogawithsara/yogawithsara-desktop-5.webp",
+        "/assets/images/yogawithsara/yogawithsara-desktop-6.webp",
+        "/assets/images/yogawithsara/yogawithsara-desktop-7.webp",
+        "/assets/images/yogawithsara/yogawithsara-desktop-8.webp"
+      ],
+      "picturesmobile": [
+        "/assets/images/yogawithsara/yogawithsara-mobile-1.webp",
+        "/assets/images/yogawithsara/yogawithsara-mobile-2.webp",
+        "/assets/images/yogawithsara/yogawithsara-mobile-3.webp",
+        "/assets/images/yogawithsara/yogawithsara-mobile-4.webp",
+        "/assets/images/yogawithsara/yogawithsara-mobile-5.webp",
+        "/assets/images/yogawithsara/yogawithsara-mobile-6.webp",
+        "/assets/images/yogawithsara/yogawithsara-mobile-7.webp",
+        "/assets/images/yogawithsara/yogawithsara-mobile-8.webp"
+      ],
+      "githubname": ["Repo du site"],
+      "github": ["https://github.com/ClemDSC/yogabysara"],
+      "contrainte": [
+        "Sara souhaitait avoir une présence en ligne plus professionnelle que des réseaux sociaux. Elle avait également d'un système de réservation pour ses clients. Je lui ai proposé une application optimisée SEO pour accroître sa visibilité en ligne et j'ai intégré un Sass facile à prendre en main pour gérer les réservations et paiements de ses clients."
+      ],
+      "link": "https://cpdw-yoga-studio.web.app/",
+      "devDate": "2024",
+      "role": ["Développement", "Maintenance"],
+      "testimonial": "Clémence a parfaitement rempli le contrat. Mon site est moderne, les couleurs sont douces. Mes clients sont contents de pouvoir réserver facilement leur cours. Et je gagne beaucoup de temps avec le système de réservation mis en place. Je la recommande +++ !",
+      "testimonialAuthor": "Sara",
+      "testimonialrole": "Professeur de yoga"
+    },
+    {
       "id": 1,
       "keyurl": "tourspaddlingclub",
       "title": "Tours Paddling Club",
