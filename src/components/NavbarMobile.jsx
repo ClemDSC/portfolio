@@ -662,7 +662,7 @@ function NavbarMobile() {
             {theme === "winter" ? (
               <img
                 className="h-10 w-12 rounded-lg"
-                src="../assets/logo/short_logo_purple.webp"
+                src="../assets/logo/short_logo_blue.webp"
                 alt="logo clemence pham developpement web"
               />
             ) : (

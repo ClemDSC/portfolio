@@ -13,7 +13,7 @@ function NavbarDesktop() {
           {theme === "winter" ? (
             <img
               className="h-24 w-24 rounded-lg"
-              src="../assets/logo/short_logo_purple.webp"
+              src="../assets/logo/short_logo_blue.webp"
               alt="logo clemence pham developpement web"
             />
           ) : (
