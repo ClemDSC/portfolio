@@ -58,12 +58,9 @@ function Contact() {
                 : "bg-dark-text text-neutral-content"
             } `}
           >
-            <span className="tooltip" data-tip="À venir...">
-              Consulter les offres
-            </span>
-            {/* <a href="http://clemencepham-web.fr/" target="blank">
+            <a href="http://clemencepham-web.fr/" target="blank">
             Consulter les offres
-            </a> */}
+            </a>
           </button>
         </div>
         <div className="md:w-1/2 md:min-h-[164px] md:relative">
